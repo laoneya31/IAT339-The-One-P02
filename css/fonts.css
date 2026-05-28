@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "OceanTrace";
+    src: url("../fonts/OceanTrace.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Canela";
+    src: url("../fonts/Canela_Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat_SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Calibri_bold";
+    src: url("../fonts/calibri-bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Calibri_regular";
+    src: url("../fonts/calibri-regular.ttf") format("truetype");
+}

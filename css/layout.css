@@ -1,0 +1,209 @@
+/* Apply the border-box model to all elements on the page */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+/* Tablet Layout (screen width less than 992px) -----------------------------*/
+@media (max-width: 992px) {
+
+    /* --------------------- Layout Grids (General Structure) --------------------- */
+
+    .text_element_grid,
+    .color_grid,
+    .text_input_field_grid,
+    .product_list_grid,
+    .product_card,
+    .product_card_text,
+    .product_detail_grid,
+    .product_detail_image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_element_grid {
+        gap: 0;
+    }
+
+    .color_grid,
+    .text_input_field_grid {
+        gap: 1.25rem;
+    }
+
+    /* --------------------- Product listing --------------------- */
+
+    .product_list_grid {
+        gap: 0;
+        border-right: none;
+    }
+
+    .card_text {
+        border-right: none;
+    }
+
+    .product_card_text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .product_card:hover {
+        padding-top: 2.5rem;
+    }
+
+    /* --------------------- Product Detail --------------------- */
+
+    .product_detail_grid {
+        gap: 3rem;
+    }
+
+    .product_detail_image {
+        flex: 40%;
+        align-items: center;
+    }
+
+    .product_info {
+        flex: 60%;
+    }
+
+    .product_detail_image img {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    /* shrink h1 a bit on tablet so it doesn't dominate */
+    h1 {
+        font-size: 4rem;
+    }
+
+    /* --------------------- Form Columns --------------------- */
+
+    .text_input_field_column_1,
+    .text_input_field_column_2 {
+        width: 100%;
+    }
+
+    /* --------------------- Potential Images --------------------- */
+
+    .images_row_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images_row_1 img {
+        max-width: 30rem;
+        width: 80%;
+    }
+
+    /* --------------------- Cart --------------------- */
+
+    .cart_grid {
+        flex-direction: column;
+    }
+
+    .individual_item_img img {
+        width: 100%;
+        min-width: 16rem;
+    }
+
+    /* --------------------- Header & Navigation --------------------- */
+
+    /* stack logo above nav links so they don't squish together */
+    .header_bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    /* let nav items wrap onto a new line if there are too many */
+    .header_nav_bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* Mobile Phone Layout (screen width less than 600px) -----------------------------*/
+@media (max-width: 600px) {
+
+    /* -------------------- Fonts & Headings & Paragraph --------------------- */
+
+    .text_element_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /* ---------------------------------- Cart -------------------------------- */
+
+    .cart_grid {
+        flex-direction: column;
+    }
+
+    .cart_column_1,
+    .cart_column_2 {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .cart_column_2 {
+        padding: 0;
+    }
+
+    .individual_item_grid {
+        flex-direction: column;
+    }
+
+    .individual_item_grid:last-of-type {
+        border-bottom: 0.05rem solid #67704C;
+    }
+
+    .individual_item_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .individual_item_img img {
+        width: 100%;
+        max-width: 16rem;
+    }
+
+    /* tighter body margins so the page doesn't feel cramped on a phone */
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* scale headings down on phone */
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    /* stop the product image from sticking when columns stack */
+    .product_detail_image img {
+        position: static;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* --------------------- Header & Navigation --------------------- */
+
+    /* shrink nav item font and padding so nothing spills off screen */
+    .header_nav_bar_item {
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
