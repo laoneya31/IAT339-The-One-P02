@@ -1,0 +1,23 @@
+.contact_info_detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.contact_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.contact_info_card {
+    background-color: #C5C35F;
+    /* border-radius: 0.5rem; */
+    border-right: 0.05rem solid #67704C;
+    border-bottom: 0.05rem solid #67704C;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+
+

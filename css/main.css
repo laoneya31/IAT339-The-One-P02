@@ -412,6 +412,7 @@ Promt: How to make a 2 columns layout using CSS?
     color: #67704C;
 }
 
+/* seperate cards */
 .card_text {
 
     border-right: 0.05rem solid #67704C;
