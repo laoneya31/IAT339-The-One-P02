@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -167,7 +168,7 @@ section {
 ---------------------------- Potential Icons -------------------------
 */
 
-.images_row_1{
+.images_row_1 {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -471,7 +472,7 @@ Promt: How to make a 2 columns layout using CSS?
 }
 
 .product_detail_image img {
-    width:100%;
+    width: 100%;
     max-width: 35rem;
     position: sticky;
     top: 2rem;
@@ -527,34 +528,34 @@ Promt: How to change to color for a radip button after it is selected using CSS?
 ----------------------------------------------------- Cart ----------------------------------------------------
 */
 
-.cart_grid{
+.cart_grid {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
-.cart_column_1{
-    flex:70%;
+.cart_column_1 {
+    flex: 70%;
 
-    display:flex;
-    flex-direction:column;
-    gap:1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.cart_column_2{
-    flex:30%;
-    padding:1rem;
+.cart_column_2 {
+    flex: 30%;
+    padding: 1rem;
 
 
-    position:sticky;
-    top:0;
+    position: sticky;
+    top: 0;
     align-self: flex-start;
 }
 
-.individual_item_grid{
-    display:flex;
-    flex-direction:row;
-    gap:1rem;
+.individual_item_grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 
     padding-bottom: 1.5rem;
     border-bottom: 0.05rem solid #67704C;
@@ -564,32 +565,32 @@ Promt: How to change to color for a radip button after it is selected using CSS?
     border-bottom: none;
 }
 
-.individual_item_img{
-    flex:40%;
+.individual_item_img {
+    flex: 40%;
 }
 
-.individual_item_img img{
-    width:70%;
+.individual_item_img img {
+    width: 70%;
 }
 
-.individual_item_detail{
-    flex:60%;
+.individual_item_detail {
+    flex: 60%;
 }
 
-.individual_item_detail a{
+.individual_item_detail a {
     text-decoration: none;
-    color:#67704C;
+    color: #67704C;
 }
 
-.cart_count{
-    padding-top:2rem;
-    padding-bottom:2rem;
+.cart_count {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.cart_button{
-    display:flex;
+.cart_button {
+    display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap: 1rem;
 }
 
 
@@ -597,9 +598,19 @@ Promt: How to change to color for a radip button after it is selected using CSS?
 ------------------------------------ Footer ------------------------------------------
 */
 
-footer{
+footer {
     margin-top: 4rem;
     margin-left: -3rem;
     margin-right: -3rem;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #67704C;
+}
+
+footer h1 {
+    color: #FFFEF0;
+    font-size: 4rem;
 }
