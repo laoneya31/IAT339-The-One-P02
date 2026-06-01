@@ -110,24 +110,68 @@
 
     /* --------------------- Header & Navigation --------------------- */
 
-    /* stack logo above nav links so they don't squish together */
     .header_bar {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
+        align-items: center;
+        gap:0;
     }
 
+    /* stack logo above nav links so they don't squish together */
+    
+  .header_bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    } 
+
     /* let nav items wrap onto a new line if there are too many */
-    .header_nav_bar {
+    
+.header_nav_bar {
         display: flex;
         flex-wrap: wrap;
     }
+
 }
 
 
 
 /* Mobile Phone Layout (screen width less than 600px) -----------------------------*/
 @media (max-width: 600px) {
+
+    /* ---------------------------------- Header -------------------------------- */
+
+    .header_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:0;
+    }
+
+    .header_nav_bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_nav_bar_item {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        font-size: 1.4rem;
+        color: #67704C;
+        text-decoration: none;
+
+        padding: 0.2rem 0.9rem;
+        border-bottom: 0.1rem solid #C5C35F;
+        border-right: none;
+    }
+
+    .header_nav_bar_item:last-child {
+        border-bottom: none;
+    }
+
 
     /* -------------------- Fonts & Headings & Paragraph --------------------- */
 
@@ -202,8 +246,10 @@
     /* --------------------- Header & Navigation --------------------- */
 
     /* shrink nav item font and padding so nothing spills off screen */
-    .header_nav_bar_item {
+    
+    /*.header_nav_bar_item {
         font-size: 1rem;
         padding: 0.2rem 0.5rem;
-    }
+    }*/
+
 }
