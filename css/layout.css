@@ -119,7 +119,7 @@
 
     /* stack logo above nav links so they don't squish together */
     
-  .header_bar {
+    .header_bar {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
@@ -127,7 +127,7 @@
 
     /* let nav items wrap onto a new line if there are too many */
     
-.header_nav_bar {
+    .header_nav_bar {
         display: flex;
         flex-wrap: wrap;
     }
