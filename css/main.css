@@ -598,7 +598,7 @@ Promt: How to change to color for a radip button after it is selected using CSS?
 */
 
 footer{
-    margin-top: auto;
+    margin-top: 4rem;
     margin-left: -3rem;
     margin-right: -3rem;
     background-color: #67704C;

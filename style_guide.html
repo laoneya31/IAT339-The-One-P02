@@ -31,980 +31,1006 @@
                 <a class="header_nav_bar_item other_font" href="#text_styling">Text Styling</a>
                 <a class="header_nav_bar_item other_font" href="#arts_direction">Arts Direction</a>
                 <a class="header_nav_bar_item other_font" href="style_guide_citations.html">Citations</a><br>
-                
-                
+
+
             </div>
         </nav>
     </header>
 
+    <main>
 
-    <!-- interactive elements -->
 
-    <section id="interactive_elements">
-        <h2>Interactive Elements</h2>
+        <!-- interactive elements -->
 
-        <!-- in-text link -->
+        <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
 
-        <div class="element">
-            <h3>In-text link</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-
-                <code>&lt;p&gt;This is an &lt;a class="in_text_link" href="#" target="_blank"&gt;in-text link&lt;/a&gt;.&lt;/p&gt;</code>
-
-            </div>
-
-            <h4>Rendered element:</h4>
-            <p>This is an <a class="in_text_link" href="#" target="_blank"> in-text link</a>.</p>
-
-            <h4>CSS Selector:</h4>
-            <p>.in_text_link</p>
-        </div>
-
-        <!-- navigation link -->
-
-        <div class="element">
-            <h3>Navigation link</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;div class="header_nav_bar"&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#company_overview"&gt;Company Description&lt;/a&gt;</code><br>
-                <code>&lt;/div&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-            <div class="header_nav_bar">
-                <a class="header_nav_bar_item other_font" href="#company_overview">Company Description</a>
-            </div>
-
-            <h4>CSS selector:</h4>
-            <p>.header_nav_bar_item</p>
-        </div>
-
-        <!-- forms submit button -->
-
-        <div class="element">
-            <h3>A submit button for forms</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;a href="#" class="primary_button"&gt;Submit&lt;/a&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-            <a href="#" class="primary_button other_font">Submit</a>
-
-            <h4>CSS selector</h4>
-            <p>.primary_button</p>
-        </div>
-
-        <!-- forms reset button -->
-
-        <div class="element">
-            <h3>A reset button for forms</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;a href="#" class="secondary_button"&gt;Submit&lt;/a&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-            <a href="#" class="secondary_button other_font">Reset</a>
-
-            <h4>CSS selector</h4>
-            <p>.secondary_button</p>
-        </div>
-
-        <!-- text input field with label -->
-
-        <div class="element">
-            <h3>Text input field with label</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;div class="text_input_field_grid"&gt;</code><br>
-                <code>&lt;div class="text_input_field_column_1"&gt;</code><br>
-                <code>&lt;div class="form_group"&gt;</code><br>
-                <code>&lt;label for="full_name"&gt;Full Name&lt;/label&gt;</code><br>
-                <code>&lt;input id="full_name" type="text" placeholder="Full Name"&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;/div&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-            <div class="text_input_field_grid other_font">
-                <div class="text_input_field_column_1">
-                    <div class="form_group">
-                        <label for="add_full_name">Full Name</label>
-                        <input id="add_full_name" type="text" placeholder="Full Name">
-                    </div>
-                </div>
-            </div>
-
-            <h4>CSS Selector:</h4>
-            <p>.text_input_field_column_1</p>
-        </div>
-
-        <!-- radio button with label and input field -->
-
-        <div class="element">
-            <h3>Radio button input field with label</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;div class="radio_group"&gt;</code><br>
-
-                <code>&lt;div class="radio_group_titile"&gt;</code><br>
-                <code>&lt;input type="radio" name="group1" id="croissants_danishes_1" value="croissants_danishes"&gt;</code><br>
-                <code>&lt;label for="croissants_danishes_1"&gt;Croissants &amp; Danishes (Vegetarian)&lt;/label&gt;&lt;br&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;div class="radio_group_detail"&gt;</code><br>
-                <code>&lt;p&gt;Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes (raisin, pistachio, cinnamon, cherry, apricot, apple).&lt;/p&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;/div&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-            <div class="product_info other_font">
-                <h3>Freshly Baked</h3>
-                <div class="product_options">
-                    <div class="produc_options_detail">
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group1" id="croissants_danishes_1"
-                                    value="croissants_danishes">
-                                <label for="croissants_danishes_1">Croissants & Danishes (Vegetarian)</label><br>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes (raisin,
-                                    pistachio, cinnamon, cherry, apricot, apple).</p>
-                            </div>
-                        </div>
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group1" id="muffins_loaves_1" value="muffins_loaves">
-                                <label for="muffins_loaves_1">Muffins & Breakfast Loaves (Vegetarian / Gluten-Free /
-                                    Vegan)</label>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>House-baked muffins and sweet loaves including banana bread, zucchini loaf, raspberry
-                                    lemon loaf, and gluten-free/vegan muffin options.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h4>CSS Selector:</h4>
-            <p>.radio_group_titile</p>
-            <p>.radio_group_detail</p>
-        </div>
-
-        <!-- image as a link -->
-
-        <div class="element">
-            <h3>An image as a link</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;div class="card_text"&gt;</code><br>
-                <code>&lt;a class="product_card" href="#"&gt;</code><br>
-                <code>&lt;div class="product_card_img"&gt;</code><br>
-                <code>&lt;img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL_BREAKFAST"&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;div class="product_card_text"&gt;</code><br>
-                <code>&lt;h4&gt;CONTINENTAL BREAKFAST&lt;br&gt;$15/PP&lt;/h4&gt;</code><br>
-                <code>&lt;p&gt;Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full beverage selection including coffee, tea, and fresh juice.&lt;/p&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;/a&gt;</code><br>
-                <code>&lt;/div&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-
-            <div class="product_list_grid">
-                <!--product detail page -->
-                <div class="card_text">
-                    <a class="product_card" href="#">
-                        <div class="product_card_img">
-                            <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
-                        </div>
-
-                        <div class="product_card_text">
-                            <h4>CONTINENTAL BREAKFAST $15</h4>
-                            <p>Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full beverage
-                                selection
-                                including coffee, tea, and fresh juice.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <h4>CSS Selector:</h4>
-            <p>.product_card</p>
-            </div>
-
-    </section>
-
-    <!-- Text Styling -->
-
-    <section id="text_styling">
-
-        <h2>Text Styling</h2>
-
-        <!-- text element -->
-
-        <div class="text_element_grid">
-            <div class="font_type">
-                <div class="element">
-                    <h3>Fonts</h3>
-                </div>
-                <div class="element_detail">
-
-                    <div class="code">
-                        <h4>Code:</h4>
-                        <code>&lt;h1&gt;Ocean Trace Regular&lt;/h1&gt;</code><br>
-                        <code>&lt;h2&gt;Canela Deck Trial Medium&lt;/h2&gt;</code><br>
-                        <code>&lt;h3&gt;Montserrat Semibold&lt;/h3&gt;</code><br>
-                        <code>&lt;h4&gt;Calibri Bold&lt;/h4&gt;</code><br>
-                        <code>&lt;p&gt;Calibri Regular&lt;/p&gt;</code>
-                    </div>
-
-                    <h1>Ocean Trace Regular</h1>
-                    <h2>Canela Deck Trial Medium</h2>
-                    <h3>Montserrat Semibold</h3>
-                    <h4>Calibri Bold</h4>
-                    <p>Calibri Regular</p>
-                </div>
-            </div>
-
-            <div class="heading_type">
-                <div class="element">
-                    <h3>Headings & Paragraph</h3>
-                </div>
-
-                <div class="element_detail">
-
-                    <div class="code">
-                        <h4>Code:</h4>
-                        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code><br>
-
-                        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code><br>
-
-                        <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code><br>
-
-                        <code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code><br>
-
-                        <code>&lt;p&gt;SAVR Catering provides professional catering services for corporate events, private parties, and social gatherings throughout
-                            Vancouver. The company specializes in freshly prepared meals made with quality ingredients, offering reliable service, customizable menu
-                            options, and seamless event catering experiences for groups of all sizes.&lt;/p&gt;</code>
-                    </div>
-
-                    <h1>Heading 1</h1>
-                    <h2>Heading 2</h2>
-                    <h3>Heading 3</h3>
-                    <h4>Heading 4</h4>
-                    <p>SAVR Catering provides professional catering services for corporate events, private parties, and
-                        social gatherings throughout Vancouver. The
-                        company specializes in freshly prepared meals made with quality ingredients, offering reliable
-                        service, customizable menu options, and seamless
-                        event catering experiences for groups of all sizes.</p>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Numbered List -->
-
-        <div class="element">
-            <h3>Numbered List</h3>
-        </div>
-
-        <div class="element_detail">
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;div class="numbered_list"&gt;</code><br>
-
-                <code>&lt;ol&gt;</code><br>
-                <code>&lt;li&gt;Soda&lt;/li&gt;</code><br>
-                <code>&lt;li&gt;Iced Tea (Lemon/Peach)&lt;/li&gt;</code><br>
-                <code>&lt;li&gt;Juice (Orange, Apple, Grape, Pineapple)&lt;/li&gt;</code><br>
-                <code>&lt;/ol&gt;</code><br>
-
-                <code>&lt;/div&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-
-            <div class="numbered_list other_font">
-                <ol>
-                    <li>Soda</li>
-                    <li>Iced Tea (Lemon/Peach)</li>
-                    <li>Juice (Orange, Apple, Grape, Pineaplle)</li>
-                </ol>
-            </div>
-
-            <h4>CSS Selector:</h4>
-            <p>.numbered_list</p>
-            </div>
-
-    </section>
-
-    <!-- Combined Elements -->
-
-    <section id="combined_elements">
-        <h2>Combined Elements</h2>
-
-        <!-- Main Navigation -->
-
-        <section id="main_navigation">
-            <div class="element">
-                <h3>Main Navigation</h3>
-            </div>
-
-            <div class="code">
-                <h4>Code:</h4>
-                <code>&lt;nav class="header_bar"&gt;</code><br>
-
-                <code>&lt;a class="header_logo" href="#"&gt;</code><br>
-                <code>&lt;h1&gt;Savr&lt;/h1&gt;</code><br>
-                <code>&lt;/a&gt;</code><br>
-
-                <code>&lt;div class="header_nav_bar"&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Home&lt;/a&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Menu&lt;/a&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Summer Special&lt;/a&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#combined_elements"&gt;Contact Us&lt;/a&gt;</code><br>
-                <code>&lt;a class="header_nav_bar_item other_font" href="#combined_elements"&gt;Cart&lt;/a&gt;</code><br>
-                <code>&lt;/div&gt;</code><br>
-
-                <code>&lt;/nav&gt;</code>
-            </div>
-
-            <h4>Rendered element:</h4>
-
-            <nav class="header_bar">
-                <a class="header_logo" href="#">
-                    <h1>Savr</h1>
-                </a>
-
-                <div class="header_nav_bar">
-                    <a class="header_nav_bar_item other_font" href="index.html">Home</a>
-                    <a class="header_nav_bar_item other_font" href="menu.html">Menu</a>
-                    <a class="header_nav_bar_item other_font" href="summer_special.html">Summer Special</a>
-                    <a class="header_nav_bar_item other_font" href="contact_us.html">Contact Us</a>
-                    <a class="header_nav_bar_item other_font" href="cart.html">Cart</a>
-                </div>
-            </nav>
-        </section>
-
-        <!-- Product Listing -->
-
-        <section id="product_listing">
+            <!-- in-text link -->
 
             <div class="element">
-                <h3>Product Listing</h3>
+                <h3>In-text link</h3>
             </div>
-
-            <h4>Rendered element:</h4>
-
-            <div class="product_list_grid">
-
-                <div class="card_text">
-                    <a class="product_card" href="#">
-                        <div class="product_card_img">
-                            <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
-                        </div>
-
-                        <div class="product_card_text">
-                            <h4>CONTINENTAL BREAKFAST $15</h4>
-                            <p>Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full beverage
-                                selection
-                                including coffee, tea, and fresh juice.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card_text">
-                    <a class="product_card" href="#">
-                        <div class="product_card_img">
-                            <img src="img/HIGH_TEA.png" alt="HIGH TEA">
-                        </div>
-
-                        <div class="product_card_text">
-                            <h4>HIGH TEA $15</h4>
-                            <p>Savoury bites, delicate pastries, and a curated selection of premium teas and refreshing
-                                sparkling lemonade.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card_text">
-                    <a class="product_card" href="#">
-                        <div class="product_card_img">
-                            <img src="img/SIGNATURE_MOCKTAIL.png" alt="SIGNATURE MOCKTAIL">
-                        </div>
-
-                        <div class="product_card_text">
-                            <h4>SIGNATURE MOCKTAIL $20</h4>
-                            <p>A refreshing selection of handcrafted signature mocktails made with fresh fruit, herbs,
-                                and sparkling mixers.</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="card_text">
-                    <a class="product_card" href="#">
-                        <div class="product_card_img">
-                            <img src="img/DESSERT.png" alt="DESSERT">
-                        </div>
-
-                        <div class="product_card_text">
-                            <h4>DESSERT $10</h4>
-                            <p>A curated selection of handcrafted desserts featuring rich flavours, seasonal
-                                ingredients, and refined textures, offering
-                                a sweet finish to the menu.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Product Detail -->
-
-        <section id="product_detail">
-            <div class="element">
-                <h3>Product Detail</h3>
-            </div>
-
-
-            <h4>Rendered element:</h4>
-
-            <div class="product_detail_grid">
-                <div class="product_detail_image">
-                    <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
-                </div>
-
-                <div class="product_info">
-                    <h3>Freshly Baked</h3>
-                    <div class="product_options other_font">
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group1" id="croissants_danishes" value="croissants_danishes">
-                                <label for="croissants_danishes">Croissants & Danishes (Vegetarian)</label><br>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes (raisin,
-                                    pistachio, cinnamon, cherry, apricot, apple).</p>
-                            </div>
-                        </div>
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group1" id="muffins_loaves" value="muffins_loaves">
-                                <label for="muffins_loaves">Muffins & Breakfast Loaves (Vegetarian / Gluten-Free /
-                                    Vegan)</label>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>House-baked muffins and sweet loaves including banana bread, zucchini loaf, raspberry
-                                    lemon loaf, and gluten-free/vegan muffin options.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3>Healthy Morning Selections</h3>
-
-                    <div class="product_options other_font">
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group2" id="pudding" value="pudding">
-                                <label for="pudding">Parfaits & Chia Puddings (Gluten-Free | Vegan &
-                                    Vegetarian)</label><br>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>Chia pudding and Greek yogurt parfaits with seasonal toppings.</p>
-                            </div>
-                        </div>
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group2" id="berry" value="berry">
-                                <label for="berry">Seasonal Fruit & Berry Platter (Vegan)</label>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>Assorted seasonal fruits.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <h3>BEVERAGE</h3>
-
-                    <div class="product_options other_font">
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group3" id="juice" value="juice">
-                                <label for="juice">Freshly Squeezed Orange Juice</label><br>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p> Individually bottled for convenience and freshness.</p>
-                            </div>
-                        </div>
-
-                        <div class="radio_group">
-                            <div class="radio_group_titile">
-                                <input type="radio" name="group3" id="coffee" value="coffee">
-                                <label for="coffee">Coffee & Tea Service</label>
-                            </div>
-                            <div class="radio_group_detail">
-                                <p>Freshly brewed regular and decaf coffee paired with a selection of premium teas.
-                                    Served with milk, cream, oat milk, sugar, stevia, maple syrup,
-                                    and honey. Rental equipment required.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- Cart -->
-
-        <section id="cart">
-
-            <div class="element">
-                <h3>Cart</h3>
-            </div>
-
-            <h4>Rendered element:</h4>
-
-            <!-- Overall layout of the page -->
-            <div class="cart_grid">
-
-                <!-- the left side of the page -->
-                <div class="cart_column_1">
-
-                    <!-- the first item in the cart -->
-                    <div class="individual_item_grid">
-
-                        <div class="individual_item_img">
-                            <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
-                        </div>
-
-                        <div class="individual_item_detail">
-                            <h4><a href="#" target="_blank">Continental Breakfast</a></h4>
-                            <!-- link to the coresponding product detail page -->
-                            <p>Croissants & Danishes (Vegetarian)</p>
-                            <p>Seasonal Fruit & Berry Platter (Vegan)</p>
-                            <p>Freshly Squeezed Orange Juice</p>
-                        </div>
-
-                        <!-- Add quantity selector -->
-                        <div class="quantity_selector">
-
-                        </div>
-                    </div>
-
-                    <!-- the second item in the cart -->
-                    <div class="individual_item_grid">
-
-                        <div class="individual_item_img">
-                            <img src="img/SIGNATURE_MOCKTAIL.png" alt="SIGNATURE MOCKTAIL">
-                        </div>
-
-                        <div class="individual_item_detail">
-                            <h4><a href="#" target="_blank">Signature Mocktail</a></h4>
-                            <!-- link to the coresponding product detail page -->
-                            <p>Tropical Pineapple Bliss</p>
-                        </div>
-
-                        <!-- Add quantity selector -->
-                        <div class="quantity_selector">
-
-                        </div>
-                    </div>
-
-                    <div class="individual_item_grid">
-
-                        <div class="individual_item_img">
-                            <img src="img/DESSERT.png" alt="DESSERT">
-                        </div>
-
-                        <div class="individual_item_detail">
-                            <h4><a href="#" target="_blank">DESSERT</a></h4>
-                            <!-- link to the coresponding product detail page -->
-                            <p>Sticky Toffee Pudding</p>
-                        </div>
-
-                        <!-- Add quantity selector -->
-                        <div class="quantity_selector">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- the right side of the page -->
-                <div class="cart_column_2">
-                    <div class="cart_notes">
-                        <h4>Notes</h4>
-                        <p>Our team may contact you after checkout to confirm event details, guest count, and any
-                            special catering requests.</p>
-                    </div>
-
-                    <div class="cart_count">
-                        <p>Subtotal:</p>
-                        <p>Delivery Fee:</p>
-                        <p>Service Fee:
-                        <p>
-                        <p>GST(5%):</p>
-                        <h4>Total:</h4>
-                    </div>
-
-                    <div class="cart_button other_font">
-                        <a href="#payment" class="primary_button other_font">Proceed to Checkout</a>
-                        <!-- link to the payment page -->
-                        <a href="#product_listing" class="secondary_button other_font">Back to the Menu</a>
-                        <!-- link to the coresponding product detail page -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Payment -->
-        <section id="payment">
-            <div class="element">
-                <h3>Payment</h3>
-            </div>
-
-            <h4>Rendered element:</h4>
 
             <div class="element_detail">
-                <!-- Overall layout of the page -->
+
+                <div class="code">
+                    <h4>Code:</h4>
+
+                    <code>&lt;p&gt;This is an &lt;a class="in_text_link" href="#" target="_blank"&gt;in-text link&lt;/a&gt;.&lt;/p&gt;</code>
+
+                </div>
+
+                <h4>Rendered element:</h4>
+                <p>This is an <a class="in_text_link" href="#" target="_blank"> in-text link</a>.</p>
+
+                <h4>CSS Selector:</h4>
+                <p>.in_text_link</p>
+            </div>
+
+            <!-- navigation link -->
+
+            <div class="element">
+                <h3>Navigation link</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;div class="header_nav_bar"&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#company_overview"&gt;Company Description&lt;/a&gt;</code><br>
+                    <code>&lt;/div&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+                <div class="header_nav_bar">
+                    <a class="header_nav_bar_item other_font" href="#company_overview">Company Description</a>
+                </div>
+
+                <h4>CSS selector:</h4>
+                <p>.header_nav_bar_item</p>
+            </div>
+
+            <!-- forms submit button -->
+
+            <div class="element">
+                <h3>A submit button for forms</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;a href="#" class="primary_button"&gt;Submit&lt;/a&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+                <a href="#" class="primary_button other_font">Submit</a>
+
+                <h4>CSS selector</h4>
+                <p>.primary_button</p>
+            </div>
+
+            <!-- forms reset button -->
+
+            <div class="element">
+                <h3>A reset button for forms</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;a href="#" class="secondary_button"&gt;Submit&lt;/a&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+                <a href="#" class="secondary_button other_font">Reset</a>
+
+                <h4>CSS selector</h4>
+                <p>.secondary_button</p>
+            </div>
+
+            <!-- text input field with label -->
+
+            <div class="element">
+                <h3>Text input field with label</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;div class="text_input_field_grid"&gt;</code><br>
+                    <code>&lt;div class="text_input_field_column_1"&gt;</code><br>
+                    <code>&lt;div class="form_group"&gt;</code><br>
+                    <code>&lt;label for="full_name"&gt;Full Name&lt;/label&gt;</code><br>
+                    <code>&lt;input id="full_name" type="text" placeholder="Full Name"&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;/div&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
                 <div class="text_input_field_grid other_font">
-                    <!-- the left side of the page -->
                     <div class="text_input_field_column_1">
-
-                        <h4>Enter your name and address:</h4>
-
                         <div class="form_group">
-                            <label for="full_name">Full Name</label>
-                            <input id="full_name" type="text" placeholder="Full Name">
+                            <label for="add_full_name">Full Name</label>
+                            <input id="add_full_name" type="text" placeholder="Full Name">
                         </div>
+                    </div>
+                </div>
 
-                        <div class="payment_merge">
-                            <div class="form_group">
-                                <label for="address">Street Address</label>
-                                <input id="address" type="text" placeholder="1234 St.">
+                <h4>CSS Selector:</h4>
+                <p>.text_input_field_column_1</p>
+            </div>
+
+            <!-- radio button with label and input field -->
+
+            <div class="element">
+                <h3>Radio button input field with label</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;div class="radio_group"&gt;</code><br>
+
+                    <code>&lt;div class="radio_group_titile"&gt;</code><br>
+                    <code>&lt;input type="radio" name="group1" id="croissants_danishes_1" value="croissants_danishes"&gt;</code><br>
+                    <code>&lt;label for="croissants_danishes_1"&gt;Croissants &amp; Danishes (Vegetarian)&lt;/label&gt;&lt;br&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;div class="radio_group_detail"&gt;</code><br>
+                    <code>&lt;p&gt;Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes (raisin, pistachio, cinnamon, cherry, apricot, apple).&lt;/p&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;/div&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+                <div class="product_info other_font">
+                    <h3>Freshly Baked</h3>
+                    <div class="product_options">
+                        <div class="produc_options_detail">
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group1" id="croissants_danishes_1"
+                                        value="croissants_danishes">
+                                    <label for="croissants_danishes_1">Croissants & Danishes (Vegetarian)</label><br>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes
+                                        (raisin,
+                                        pistachio, cinnamon, cherry, apricot, apple).</p>
+                                </div>
                             </div>
 
-                            <div class="form_group">
-                                <label for="apt">Apt</label>
-                                <input id="apt" type="text" placeholder="XXX">
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group1" id="muffins_loaves_1" value="muffins_loaves">
+                                    <label for="muffins_loaves_1">Muffins & Breakfast Loaves (Vegetarian / Gluten-Free /
+                                        Vegan)</label>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>House-baked muffins and sweet loaves including banana bread, zucchini loaf,
+                                        raspberry
+                                        lemon loaf, and gluten-free/vegan muffin options.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4>CSS Selector:</h4>
+                <p>.radio_group_titile</p>
+                <p>.radio_group_detail</p>
+            </div>
+
+            <!-- image as a link -->
+
+            <div class="element">
+                <h3>An image as a link</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;div class="card_text"&gt;</code><br>
+                    <code>&lt;a class="product_card" href="#"&gt;</code><br>
+                    <code>&lt;div class="product_card_img"&gt;</code><br>
+                    <code>&lt;img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL_BREAKFAST"&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;div class="product_card_text"&gt;</code><br>
+                    <code>&lt;h4&gt;CONTINENTAL BREAKFAST&lt;br&gt;$15/PP&lt;/h4&gt;</code><br>
+                    <code>&lt;p&gt;Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full beverage selection including coffee, tea, and fresh juice.&lt;/p&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;/a&gt;</code><br>
+                    <code>&lt;/div&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <div class="product_list_grid">
+                    <!--product detail page -->
+                    <div class="card_text">
+                        <a class="product_card" href="#">
+                            <div class="product_card_img">
+                                <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
+                            </div>
+
+                            <div class="product_card_text">
+                                <h4>CONTINENTAL BREAKFAST $15</h4>
+                                <p>Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full
+                                    beverage
+                                    selection
+                                    including coffee, tea, and fresh juice.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <h4>CSS Selector:</h4>
+                <p>.product_card</p>
+            </div>
+
+        </section>
+
+        <!-- Text Styling -->
+
+        <section id="text_styling">
+
+            <h2>Text Styling</h2>
+
+            <!-- text element -->
+
+            <div class="text_element_grid">
+                <div class="font_type">
+                    <div class="element">
+                        <h3>Fonts</h3>
+                    </div>
+                    <div class="element_detail">
+
+                        <div class="code">
+                            <h4>Code:</h4>
+                            <code>&lt;h1&gt;Ocean Trace Regular&lt;/h1&gt;</code><br>
+                            <code>&lt;h2&gt;Canela Deck Trial Medium&lt;/h2&gt;</code><br>
+                            <code>&lt;h3&gt;Montserrat Semibold&lt;/h3&gt;</code><br>
+                            <code>&lt;h4&gt;Calibri Bold&lt;/h4&gt;</code><br>
+                            <code>&lt;p&gt;Calibri Regular&lt;/p&gt;</code>
+                        </div>
+
+                        <h1>Ocean Trace Regular</h1>
+                        <h2>Canela Deck Trial Medium</h2>
+                        <h3>Montserrat Semibold</h3>
+                        <h4>Calibri Bold</h4>
+                        <p>Calibri Regular</p>
+                    </div>
+                </div>
+
+                <div class="heading_type">
+                    <div class="element">
+                        <h3>Headings & Paragraph</h3>
+                    </div>
+
+                    <div class="element_detail">
+
+                        <div class="code">
+                            <h4>Code:</h4>
+                            <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code><br>
+
+                            <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code><br>
+
+                            <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code><br>
+
+                            <code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code><br>
+
+                            <code>&lt;p&gt;SAVR Catering provides professional catering services for corporate events, private parties, and social gatherings throughout
+                            Vancouver. The company specializes in freshly prepared meals made with quality ingredients, offering reliable service, customizable menu
+                            options, and seamless event catering experiences for groups of all sizes.&lt;/p&gt;</code>
+                        </div>
+
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <p>SAVR Catering provides professional catering services for corporate events, private parties,
+                            and
+                            social gatherings throughout Vancouver. The
+                            company specializes in freshly prepared meals made with quality ingredients, offering
+                            reliable
+                            service, customizable menu options, and seamless
+                            event catering experiences for groups of all sizes.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Numbered List -->
+
+            <div class="element">
+                <h3>Numbered List</h3>
+            </div>
+
+            <div class="element_detail">
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;div class="numbered_list"&gt;</code><br>
+
+                    <code>&lt;ol&gt;</code><br>
+                    <code>&lt;li&gt;Soda&lt;/li&gt;</code><br>
+                    <code>&lt;li&gt;Iced Tea (Lemon/Peach)&lt;/li&gt;</code><br>
+                    <code>&lt;li&gt;Juice (Orange, Apple, Grape, Pineapple)&lt;/li&gt;</code><br>
+                    <code>&lt;/ol&gt;</code><br>
+
+                    <code>&lt;/div&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <div class="numbered_list other_font">
+                    <ol>
+                        <li>Soda</li>
+                        <li>Iced Tea (Lemon/Peach)</li>
+                        <li>Juice (Orange, Apple, Grape, Pineaplle)</li>
+                    </ol>
+                </div>
+
+                <h4>CSS Selector:</h4>
+                <p>.numbered_list</p>
+            </div>
+
+        </section>
+
+        <!-- Combined Elements -->
+
+        <section id="combined_elements">
+            <h2>Combined Elements</h2>
+
+            <!-- Main Navigation -->
+
+            <section id="main_navigation">
+                <div class="element">
+                    <h3>Main Navigation</h3>
+                </div>
+
+                <div class="code">
+                    <h4>Code:</h4>
+                    <code>&lt;nav class="header_bar"&gt;</code><br>
+
+                    <code>&lt;a class="header_logo" href="#"&gt;</code><br>
+                    <code>&lt;h1&gt;Savr&lt;/h1&gt;</code><br>
+                    <code>&lt;/a&gt;</code><br>
+
+                    <code>&lt;div class="header_nav_bar"&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Home&lt;/a&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Menu&lt;/a&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#"&gt;Summer Special&lt;/a&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#combined_elements"&gt;Contact Us&lt;/a&gt;</code><br>
+                    <code>&lt;a class="header_nav_bar_item other_font" href="#combined_elements"&gt;Cart&lt;/a&gt;</code><br>
+                    <code>&lt;/div&gt;</code><br>
+
+                    <code>&lt;/nav&gt;</code>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <nav class="header_bar">
+                    <a class="header_logo" href="#">
+                        <h1>Savr</h1>
+                    </a>
+
+                    <div class="header_nav_bar">
+                        <a class="header_nav_bar_item other_font" href="index.html">Home</a>
+                        <a class="header_nav_bar_item other_font" href="menu.html">Menu</a>
+                        <a class="header_nav_bar_item other_font" href="summer_special.html">Summer Special</a>
+                        <a class="header_nav_bar_item other_font" href="contact_us.html">Contact Us</a>
+                        <a class="header_nav_bar_item other_font" href="cart.html">Cart</a>
+                    </div>
+                </nav>
+            </section>
+
+            <!-- Product Listing -->
+
+            <section id="product_listing">
+
+                <div class="element">
+                    <h3>Product Listing</h3>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <div class="product_list_grid">
+
+                    <div class="card_text">
+                        <a class="product_card" href="#">
+                            <div class="product_card_img">
+                                <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
+                            </div>
+
+                            <div class="product_card_text">
+                                <h4>CONTINENTAL BREAKFAST $15</h4>
+                                <p>Freshly baked pastries, muffins, healthy parfaits, seasonal fruit, and a full
+                                    beverage
+                                    selection
+                                    including coffee, tea, and fresh juice.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card_text">
+                        <a class="product_card" href="#">
+                            <div class="product_card_img">
+                                <img src="img/HIGH_TEA.png" alt="HIGH TEA">
+                            </div>
+
+                            <div class="product_card_text">
+                                <h4>HIGH TEA $15</h4>
+                                <p>Savoury bites, delicate pastries, and a curated selection of premium teas and
+                                    refreshing
+                                    sparkling lemonade.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card_text">
+                        <a class="product_card" href="#">
+                            <div class="product_card_img">
+                                <img src="img/SIGNATURE_MOCKTAIL.png" alt="SIGNATURE MOCKTAIL">
+                            </div>
+
+                            <div class="product_card_text">
+                                <h4>SIGNATURE MOCKTAIL $20</h4>
+                                <p>A refreshing selection of handcrafted signature mocktails made with fresh fruit,
+                                    herbs,
+                                    and sparkling mixers.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card_text">
+                        <a class="product_card" href="#">
+                            <div class="product_card_img">
+                                <img src="img/DESSERT.png" alt="DESSERT">
+                            </div>
+
+                            <div class="product_card_text">
+                                <h4>DESSERT $10</h4>
+                                <p>A curated selection of handcrafted desserts featuring rich flavours, seasonal
+                                    ingredients, and refined textures, offering
+                                    a sweet finish to the menu.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Detail -->
+
+            <section id="product_detail">
+                <div class="element">
+                    <h3>Product Detail</h3>
+                </div>
+
+
+                <h4>Rendered element:</h4>
+
+                <div class="product_detail_grid">
+                    <div class="product_detail_image">
+                        <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
+                    </div>
+
+                    <div class="product_info">
+                        <h3>Freshly Baked</h3>
+                        <div class="product_options other_font">
+
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group1" id="croissants_danishes"
+                                        value="croissants_danishes">
+                                    <label for="croissants_danishes">Croissants & Danishes (Vegetarian)</label><br>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>Freshly baked croissants (butter, almond, chocolate, cheddar) and danishes
+                                        (raisin,
+                                        pistachio, cinnamon, cherry, apricot, apple).</p>
+                                </div>
+                            </div>
+
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group1" id="muffins_loaves" value="muffins_loaves">
+                                    <label for="muffins_loaves">Muffins & Breakfast Loaves (Vegetarian / Gluten-Free /
+                                        Vegan)</label>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>House-baked muffins and sweet loaves including banana bread, zucchini loaf,
+                                        raspberry
+                                        lemon loaf, and gluten-free/vegan muffin options.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="payment_merge">
-                            <div class="form_group">
-                                <label for="city">City</label>
-                                <input id="city" type="text" placeholder="City">
+                        <h3>Healthy Morning Selections</h3>
+
+                        <div class="product_options other_font">
+
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group2" id="pudding" value="pudding">
+                                    <label for="pudding">Parfaits & Chia Puddings (Gluten-Free | Vegan &
+                                        Vegetarian)</label><br>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>Chia pudding and Greek yogurt parfaits with seasonal toppings.</p>
+                                </div>
                             </div>
 
-                            <div class="form_group">
-                                <label for="postal">Postal Code</label>
-                                <input id="postal" type="text" placeholder="XXX XXX">
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group2" id="berry" value="berry">
+                                    <label for="berry">Seasonal Fruit & Berry Platter (Vegan)</label>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>Assorted seasonal fruits.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <h4>What's your contact information?</h4>
 
-                        <div class="form_group">
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email" placeholder="youremail@placeholder.com">
+
+                        <h3>BEVERAGE</h3>
+
+                        <div class="product_options other_font">
+
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group3" id="juice" value="juice">
+                                    <label for="juice">Freshly Squeezed Orange Juice</label><br>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p> Individually bottled for convenience and freshness.</p>
+                                </div>
+                            </div>
+
+                            <div class="radio_group">
+                                <div class="radio_group_titile">
+                                    <input type="radio" name="group3" id="coffee" value="coffee">
+                                    <label for="coffee">Coffee & Tea Service</label>
+                                </div>
+                                <div class="radio_group_detail">
+                                    <p>Freshly brewed regular and decaf coffee paired with a selection of premium teas.
+                                        Served with milk, cream, oat milk, sugar, stevia, maple syrup,
+                                        and honey. Rental equipment required.</p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="form_group">
-                            <label for="phone">Phone Number</label>
-                            <input id="phone" type="tel" placeholder="+1 (604) 123-4567">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Cart -->
+
+            <section id="cart">
+
+                <div class="element">
+                    <h3>Cart</h3>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <!-- Overall layout of the page -->
+                <div class="cart_grid">
+
+                    <!-- the left side of the page -->
+                    <div class="cart_column_1">
+
+                        <!-- the first item in the cart -->
+                        <div class="individual_item_grid">
+
+                            <div class="individual_item_img">
+                                <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
+                            </div>
+
+                            <div class="individual_item_detail">
+                                <h4><a href="#" target="_blank">Continental Breakfast</a></h4>
+                                <!-- link to the coresponding product detail page -->
+                                <p>Croissants & Danishes (Vegetarian)</p>
+                                <p>Seasonal Fruit & Berry Platter (Vegan)</p>
+                                <p>Freshly Squeezed Orange Juice</p>
+                            </div>
+
+                            <!-- Add quantity selector -->
+                            <div class="quantity_selector">
+
+                            </div>
+                        </div>
+
+                        <!-- the second item in the cart -->
+                        <div class="individual_item_grid">
+
+                            <div class="individual_item_img">
+                                <img src="img/SIGNATURE_MOCKTAIL.png" alt="SIGNATURE MOCKTAIL">
+                            </div>
+
+                            <div class="individual_item_detail">
+                                <h4><a href="#" target="_blank">Signature Mocktail</a></h4>
+                                <!-- link to the coresponding product detail page -->
+                                <p>Tropical Pineapple Bliss</p>
+                            </div>
+
+                            <!-- Add quantity selector -->
+                            <div class="quantity_selector">
+
+                            </div>
+                        </div>
+
+                        <div class="individual_item_grid">
+
+                            <div class="individual_item_img">
+                                <img src="img/DESSERT.png" alt="DESSERT">
+                            </div>
+
+                            <div class="individual_item_detail">
+                                <h4><a href="#" target="_blank">DESSERT</a></h4>
+                                <!-- link to the coresponding product detail page -->
+                                <p>Sticky Toffee Pudding</p>
+                            </div>
+
+                            <!-- Add quantity selector -->
+                            <div class="quantity_selector">
+
+                            </div>
                         </div>
 
                     </div>
 
                     <!-- the right side of the page -->
-                    <div class="text_input_field_column_2">
-
-                        <h4>Enter your card information:</h4>
-
-                        <div class="form_group">
-                            <label for="cardnumber">Card Number</label>
-                            <input id="cardnumber" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                    <div class="cart_column_2">
+                        <div class="cart_notes">
+                            <h4>Notes</h4>
+                            <p>Our team may contact you after checkout to confirm event details, guest count, and any
+                                special catering requests.</p>
                         </div>
 
-                        <div class="payment_merge">
+                        <div class="cart_count">
+                            <p>Subtotal:</p>
+                            <p>Delivery Fee:</p>
+                            <p>Service Fee:
+                            <p>
+                            <p>GST(5%):</p>
+                            <h4>Total:</h4>
+                        </div>
+
+                        <div class="cart_button other_font">
+                            <a href="#payment" class="primary_button other_font">Proceed to Checkout</a>
+                            <!-- link to the payment page -->
+                            <a href="#product_listing" class="secondary_button other_font">Back to the Menu</a>
+                            <!-- link to the coresponding product detail page -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Payment -->
+            <section id="payment">
+                <div class="element">
+                    <h3>Payment</h3>
+                </div>
+
+                <h4>Rendered element:</h4>
+
+                <div class="element_detail">
+                    <!-- Overall layout of the page -->
+                    <div class="text_input_field_grid other_font">
+                        <!-- the left side of the page -->
+                        <div class="text_input_field_column_1">
+
+                            <h4>Enter your name and address:</h4>
 
                             <div class="form_group">
-                                <label for="expiration">Expiration</label>
-                                <input id="expiration" type="text" placeholder="MM/YY">
+                                <label for="full_name">Full Name</label>
+                                <input id="full_name" type="text" placeholder="Full Name">
+                            </div>
+
+                            <div class="payment_merge">
+                                <div class="form_group">
+                                    <label for="address">Street Address</label>
+                                    <input id="address" type="text" placeholder="1234 St.">
+                                </div>
+
+                                <div class="form_group">
+                                    <label for="apt">Apt</label>
+                                    <input id="apt" type="text" placeholder="XXX">
+                                </div>
+                            </div>
+
+                            <div class="payment_merge">
+                                <div class="form_group">
+                                    <label for="city">City</label>
+                                    <input id="city" type="text" placeholder="City">
+                                </div>
+
+                                <div class="form_group">
+                                    <label for="postal">Postal Code</label>
+                                    <input id="postal" type="text" placeholder="XXX XXX">
+                                </div>
+                            </div>
+
+                            <h4>What's your contact information?</h4>
+
+                            <div class="form_group">
+                                <label for="email">Email Address</label>
+                                <input id="email" type="email" placeholder="youremail@placeholder.com">
                             </div>
 
                             <div class="form_group">
-                                <label for="cvv">CVV</label>
-                                <input id="cvv" type="text" placeholder="XXX">
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" type="tel" placeholder="+1 (604) 123-4567">
                             </div>
 
                         </div>
 
-                        <div class="button_group other_font">
-                            <a href="#" class="primary_button">Confirm Payment</a>
-                            <a href="#cart" class="secondary_button">Back to Cart</a>
+                        <!-- the right side of the page -->
+                        <div class="text_input_field_column_2">
+
+                            <h4>Enter your card information:</h4>
+
+                            <div class="form_group">
+                                <label for="cardnumber">Card Number</label>
+                                <input id="cardnumber" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                            </div>
+
+                            <div class="payment_merge">
+
+                                <div class="form_group">
+                                    <label for="expiration">Expiration</label>
+                                    <input id="expiration" type="text" placeholder="MM/YY">
+                                </div>
+
+                                <div class="form_group">
+                                    <label for="cvv">CVV</label>
+                                    <input id="cvv" type="text" placeholder="XXX">
+                                </div>
+
+                            </div>
+
+                            <div class="button_group other_font">
+                                <a href="#" class="primary_button">Confirm Payment</a>
+                                <a href="#cart" class="secondary_button">Back to Cart</a>
+                            </div>
+
                         </div>
 
                     </div>
 
+                </div>
+
+            </section>
+
+        </section>
+
+        <!-- company overview -->
+
+        <section id="company_overview">
+
+            <h2>Company Overview</h2>
+
+            <div class="element">
+                <h3>Products & services & core offerings</h3>
+            </div>
+
+            <div class="element_detail">
+                <p>SAVR Catering provides professional catering services for corporate events, private parties, and
+                    social
+                    gatherings throughout Vancouver.
+                    The company specializes in freshly prepared meals made with quality ingredients, offering reliable
+                    service, customizable menu options,
+                    and seamless event catering experiences for groups of all sizes.</p>
+            </div>
+
+            <div class="element">
+                <h3>Customer perception</h3>
+            </div>
+
+            <div class="element_detail">
+                <p>SAVR Catering appeals to corporate professionals, event organizers, businesses, and individuals in
+                    Vancouver and the surrounding areas
+                    seeking reliable, high-quality catering services for events and gatherings. Potential customers
+                    value
+                    convenience, professional service,
+                    fresh food, and a catering experience that enhances the overall atmosphere of their event.</p>
+            </div>
+
+            <div class="element">
+                <h3>Key factors influencing customer interest and purchase decisions</h3>
+            </div>
+
+            <div class="element_detail">
+                <p>Customers are drawn to SAVR Catering for its fresh and high-quality food, professional presentation,
+                    dependable service, and ability to
+                    accommodate a variety of event types and group sizes. The company focuses on reliability, customer
+                    experience, and memorable event dining,
+                    which helps build trust and encourages clients to choose SAVR Catering for their catering needs.</p>
+            </div>
+
+        </section>
+
+        <!-- arts direction -->
+        <section id="arts_direction">
+            <h2>Arts Direction</h2>
+
+            <!-- color palette -->
+
+            <div class="element">
+                <h3>Color Palette</h3>
+            </div>
+
+
+            <div class="element_detail">
+
+                <div class="color_grid">
+                    <div class="color_1">
+                        <h3>Background Color</h3>
+                        <p>Soft Cream Ivory #FFFEF0</p>
+                        <p>RGB (255, 254, 240)</p>
+                        <p>A gentle neutral tone used to create clean backgrounds.</p>
+                    </div>
+
+                    <div class="color_2">
+                        <h3>Primary Color</h3>
+                        <p>Sage Olive #67704C</p>
+                        <p>RGB (103, 112, 76)</p>
+                        <p>Logo, navigation items color, buttons and high-contrast dark elements.</p>
+                    </div>
+
+                    <div class="color_3">
+                        <h3>Accent Color</h3>
+                        <p>Golden Mustard Green #67704C</p>
+                        <p>RGB (197, 195, 95)</p>
+                        <p>High-visibility color for in-text link, hover effects, and UI highlights.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- icons -->
+
+            <div class="element">
+                <h3>Potential Icons</h3>
+            </div>
+
+            <div class="element_detail">
+                <div class="icon_grid">
+                    <!-- first row of potential icons -->
+                    <div class="icon_row_1">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="img/ig_icon_green.png" alt="ig icon">
+                        </a>
+
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                            target="_blank">
+                            <img src="img/fb_icon_green.png" alt="fb icon">
+                        </a>
+
+                        <a href="https://x.com/" target="_blank">
+                            <img src="img/x_icon_green.png" alt="x icon">
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <!-- for shopping cart page -->
+                            <img src="img/cart_icon_green.png" alt="cart icon">
+                        </a>
+
+                        <!-- email page -->
+                        <a href="#" target="_blank">
+                            <img class="email_icon" src="img/email_icon_green.png" alt="email icon">
+                        </a>
+                    </div>
+
+                    <!-- second row of potential icons -->
+                    <div class="icon_row_2">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="img/ig_icon_white.png" alt="ig icon">
+                        </a>
+
+                        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"
+                            target="_blank">
+                            <img src="img/fb_icon_white.png" alt="fb icon">
+                        </a>
+
+                        <a href="https://x.com/" target="_blank">
+                            <img src="img/x_icon_white.png" alt="x icon">
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <!-- shorpping cart page -->
+                            <img src="img/cart_icon_white.png" alt="cart icon">
+                        </a>
+
+                        <a href="#" target="_blank"> <!-- email page  -->
+                            <img class="email_icon" src="img/email_icon_white.png" alt="email icon">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- images -->
+
+            <div class="element">
+                <h3>Potential Images</h3>
+            </div>
+
+            <div class="element_detail">
+                <div class="images_grid">
+                    <!-- first row of image -->
+                    <div class="images_row_1">
+                        <div class="img_item">
+                            <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
+                        </div>
+
+                        <div class="img_item">
+                            <img src="img/HIGH_TEA.png" alt="CONTINENTAL BREAKFAST">
+                        </div>
+
+                        <div class="img_item">
+                            <img src="img/SIGNATURE_MOCKTAIL.png" alt="CONTINENTAL BREAKFAST">
+                        </div>
+
+                        <div class="img_item">
+                            <img src="img/DESSERT.png" alt="CONTINENTAL BREAKFAST">
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
 
         </section>
 
-    </section>
+        <!-- Templates -->
 
-    <!-- company overview -->
+        <section id="templates">
+            <h2>Templates</h2>
 
-    <section id="company_overview">
+            <h3><a class="in_text_link" href="style_guide_product_listing.html">Product Listing</a></h3>
+            <h3><a class="in_text_link" href="style_guide_product_detail_continental_breakfast.html">Continental
+                    Breakfast Product Detail</a></h3>
+            <h3><a class="in_text_link" href="style_guide_product_detail_high_tea.html">High Tea Product Detail</a></h3>
+            <h3><a class="in_text_link" href="style_guide_product_detail_mocktail.html">Mocktail Product Detail</a></h3>
+            <h3><a class="in_text_link" href="style_guide_product_detail_dessert.html">Dessert Product Detail</a></h3>
+            <h3><a class="in_text_link" href="style_guide_cart.html">Cart</a></h3>
+            <h3><a class="in_text_link" href="style_guide_payment.html">Payment</a></h3>
+        </section>
 
-        <h2>Company Overview</h2>
+        <!-- citations -->
 
-        <div class="element">
-            <h3>Products & services & core offerings</h3>
-        </div>
+        <section id="citations">
+            <h2>Citations</h2>
 
-        <div class="element_detail">
-            <p>SAVR Catering provides professional catering services for corporate events, private parties, and social
-                gatherings throughout Vancouver.
-                The company specializes in freshly prepared meals made with quality ingredients, offering reliable
-                service, customizable menu options,
-                and seamless event catering experiences for groups of all sizes.</p>
-        </div>
-
-        <div class="element">
-            <h3>Customer perception</h3>
-        </div>
-
-        <div class="element_detail">
-            <p>SAVR Catering appeals to corporate professionals, event organizers, businesses, and individuals in
-                Vancouver and the surrounding areas
-                seeking reliable, high-quality catering services for events and gatherings. Potential customers value
-                convenience, professional service,
-                fresh food, and a catering experience that enhances the overall atmosphere of their event.</p>
-        </div>
-
-        <div class="element">
-            <h3>Key factors influencing customer interest and purchase decisions</h3>
-        </div>
-
-        <div class="element_detail">
-            <p>Customers are drawn to SAVR Catering for its fresh and high-quality food, professional presentation,
-                dependable service, and ability to
-                accommodate a variety of event types and group sizes. The company focuses on reliability, customer
-                experience, and memorable event dining,
-                which helps build trust and encourages clients to choose SAVR Catering for their catering needs.</p>
-        </div>
-
-    </section>
-
-    <!-- arts direction -->
-    <section id="arts_direction">
-        <h2>Arts Direction</h2>
-
-        <!-- color palette -->
-
-        <div class="element">
-            <h3>Color Palette</h3>
-        </div>
+            <h3><a class="in_text_link" href="style_guide_citations.html">Citations</a></h3>
+        </section>
 
 
-        <div class="element_detail">
+    </main>
 
-            <div class="color_grid">
-                <div class="color_1">
-                    <h3>Background Color</h3>
-                    <p>Soft Cream Ivory #FFFEF0</p>
-                    <p>RGB (255, 254, 240)</p>
-                    <p>A gentle neutral tone used to create clean backgrounds.</p>
-                </div>
-
-                <div class="color_2">
-                    <h3>Primary Color</h3>
-                    <p>Sage Olive #67704C</p>
-                    <p>RGB (103, 112, 76)</p>
-                    <p>Logo, navigation items color, buttons and high-contrast dark elements.</p>
-                </div>
-
-                <div class="color_3">
-                    <h3>Accent Color</h3>
-                    <p>Golden Mustard Green #67704C</p>
-                    <p>RGB (197, 195, 95)</p>
-                    <p>High-visibility color for in-text link, hover effects, and UI highlights.</p>
-                </div>
+    <footer>
+        <div class="footer_grid">
+            <div class="footer_column_1">
+                <h1>Savr</h1>
             </div>
         </div>
-
-        <!-- icons -->
-
-        <div class="element">
-            <h3>Potential Icons</h3>
-        </div>
-
-        <div class="element_detail">
-            <div class="icon_grid">
-                <!-- first row of potential icons -->
-                <div class="icon_row_1">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="img/ig_icon_green.png" alt="ig icon">
-                    </a>
-
-                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank">
-                        <img src="img/fb_icon_green.png" alt="fb icon">
-                    </a>
-
-                    <a href="https://x.com/" target="_blank">
-                        <img src="img/x_icon_green.png" alt="x icon">
-                    </a>
-
-                    <a href="#" target="_blank">
-                        <!-- for shopping cart page -->
-                        <img src="img/cart_icon_green.png" alt="cart icon">
-                    </a>
-
-                    <!-- email page -->
-                    <a href="#" target="_blank">
-                        <img class="email_icon" src="img/email_icon_green.png" alt="email icon">
-                    </a>
-                </div>
-
-                <!-- second row of potential icons -->
-                <div class="icon_row_2">
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="img/ig_icon_white.png" alt="ig icon">
-                    </a>
-
-                    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank">
-                        <img src="img/fb_icon_white.png" alt="fb icon">
-                    </a>
-
-                    <a href="https://x.com/" target="_blank">
-                        <img src="img/x_icon_white.png" alt="x icon">
-                    </a>
-
-                    <a href="#" target="_blank">
-                        <!-- shorpping cart page -->
-                        <img src="img/cart_icon_white.png" alt="cart icon">
-                    </a>
-
-                    <a href="#" target="_blank"> <!-- email page  -->
-                        <img class="email_icon" src="img/email_icon_white.png" alt="email icon">
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- images -->
-
-        <div class="element">
-            <h3>Potential Images</h3>
-        </div>
-
-        <div class="element_detail">
-            <div class="images_grid">
-                <!-- first row of image -->
-                <div class="images_row_1">
-                    <div class="img_item">
-                        <img src="img/CONTINENTAL_BREAKFAST.png" alt="CONTINENTAL BREAKFAST">
-                    </div>
-
-                    <div class="img_item">
-                        <img src="img/HIGH_TEA.png" alt="CONTINENTAL BREAKFAST">
-                    </div>
-
-                    <div class="img_item">
-                        <img src="img/SIGNATURE_MOCKTAIL.png" alt="CONTINENTAL BREAKFAST">
-                    </div>
-
-                    <div class="img_item">
-                        <img src="img/DESSERT.png" alt="CONTINENTAL BREAKFAST">
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Templates -->
-
-    <section id="templates">
-        <h2>Templates</h2>
-
-        <h3><a class="in_text_link" href="style_guide_product_listing.html">Product Listing</a></h3>
-        <h3><a class="in_text_link" href="style_guide_product_detail_continental_breakfast.html">Continental Breakfast Product Detail</a></h3>
-        <h3><a class="in_text_link" href="style_guide_product_detail_high_tea.html">High Tea Product Detail</a></h3>
-        <h3><a class="in_text_link" href="style_guide_product_detail_mocktail.html" >Mocktail Product Detail</a></h3>
-        <h3><a class="in_text_link" href="style_guide_product_detail_dessert.html">Dessert Product Detail</a></h3>
-        <h3><a class="in_text_link" href="style_guide_cart.html">Cart</a></h3>
-        <h3><a class="in_text_link" href="style_guide_payment.html">Payment</a></h3>
-    </section>
-
-    <!-- citations -->
-
-    <section id="citations">
-        <h2>Citations</h2>
-
-        <h3><a class="in_text_link" href="style_guide_citations.html">Citations</a></h3>
-    </section>
-
-
-
+    </footer>
 
 
 </body>
