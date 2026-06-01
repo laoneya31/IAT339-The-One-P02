@@ -1,9 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background: #FFFEF0;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
     margin-top: 0;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /*
@@ -586,3 +593,13 @@ Promt: How to change to color for a radip button after it is selected using CSS?
 }
 
 
+/*
+------------------------------------ Footer ------------------------------------------
+*/
+
+footer{
+    margin-top: auto;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    background-color: #67704C;
+}
