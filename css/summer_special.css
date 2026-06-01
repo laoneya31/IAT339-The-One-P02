@@ -1,5 +1,17 @@
-.event_grid{
+.event_grid,
+.event_overlap_content,
+.event_text,
+.element,
+.element_detail{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
+
+h4{
+    margin-bottom:0;
+}
+
+
+
+
