@@ -614,3 +614,11 @@ footer h1 {
     color: #FFFEF0;
     font-size: 4rem;
 }
+
+footer a{
+    text-decoration: none;
+}
+
+footer .in_text_link{
+color:#FFFEF0;
+}
