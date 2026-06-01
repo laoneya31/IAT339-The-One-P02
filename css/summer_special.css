@@ -1,6 +1,7 @@
 .event_grid,
 .event_overlap_content,
 .event_text,
+.event_main_img,
 .element,
 .element_detail{
     display:flex;
@@ -11,6 +12,19 @@
 h4{
     margin-bottom:0;
 }
+
+h2,
+h3,
+h4{
+    text-align: center;
+}
+
+.event_main_img img,
+.element_detail {
+    width: 80%;
+}
+
+
 
 
 
