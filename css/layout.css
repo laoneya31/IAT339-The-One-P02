@@ -10,7 +10,6 @@
 /* Tablet Layout (screen width less than 992px) -----------------------------*/
 @media (max-width: 992px) {
 
-
     /* --------------------- Layout Grids (General Structure) --------------------- */
 
     .text_element_grid,
@@ -139,6 +138,19 @@
         padding: 1rem;
         gap: 0.3rem;
     }
+
+    .about_us_content_grid{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+
+    .about_us_text,
+    .about_us_img {
+        width: 100%;
+    }
+
 
 }
 
