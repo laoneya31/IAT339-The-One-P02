@@ -19,7 +19,8 @@
     .product_card,
     .product_card_text,
     .product_detail_grid,
-    .product_detail_image {
+    .product_detail_image,
+    .contact_info {
         display: flex;
         flex-direction: column;
     }
