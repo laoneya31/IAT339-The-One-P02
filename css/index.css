@@ -1,6 +1,7 @@
 .view_menu_grid{
     display:flex;
     flex-direction: column;
+    padding-top:4rem;
 }
 
 .view_menu_image_grid {
@@ -27,4 +28,13 @@
     transform: scale(1.03);
     border-radius: 0.5rem;
     background-color:#C5C35F ;
+}
+
+
+.about_us_grid{
+    padding-top:3rem;
+}
+
+.about_us_image img{
+    width:100%;
 }
