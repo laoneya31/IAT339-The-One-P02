@@ -31,10 +31,18 @@
 }
 
 
-.about_us_grid{
-    padding-top:3rem;
+.bg_image {
+    position: fixed;
+    inset: 0;
+    background: url("../img/bg.png") center / cover no-repeat;
+    z-index: -2;
 }
 
-.about_us_image img{
-    width:100%;
+.color_overlap{
+    position: fixed;
+    inset: 0;
+
+    background: rgba(255, 254, 240, 0.5); 
+
+    z-index: -1;
 }
