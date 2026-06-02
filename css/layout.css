@@ -133,15 +133,12 @@
         flex-wrap: wrap;
     }
 
-<<<<<<< HEAD
-=======
     /* --------------------- index --------------------- */
     
     a.view_menu_image_grid {
         padding: 1rem;
         gap: 0.3rem;
     }
->>>>>>> 8857635bf0943a608f14780c9cc0a12b1634b2fe
 
 }
 
