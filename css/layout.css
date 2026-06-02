@@ -19,8 +19,7 @@
     .product_card,
     .product_card_text,
     .product_detail_grid,
-    .product_detail_image,
-    .contact_info {
+    .product_detail_image {
         display: flex;
         flex-direction: column;
     }
@@ -132,6 +131,7 @@
         display: flex;
         flex-wrap: wrap;
     }
+
 
 }
 
