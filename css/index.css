@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.view_menu_image_gird {
+.view_menu_image_grid {
     display: flex;
     flex-direction: row;
     padding: 4rem;
@@ -21,7 +21,7 @@
     display: block;
 }
 
-.view_menu_image_gird:hover{
+.view_menu_image_grid:hover{
     transition:0.3s;
 
     transform: scale(1.03);
