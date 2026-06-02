@@ -46,3 +46,22 @@
 
     z-index: -1;
 }
+
+.about_us_content_grid{
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    align-items: center;
+}
+
+.about_us_img img {
+    width: 100%;
+}
+
+.about_us_text{
+    flex:2.5;
+}
+
+.about_us_img{
+    flex:1.5;
+}
