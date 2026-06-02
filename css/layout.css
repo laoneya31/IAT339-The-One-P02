@@ -10,6 +10,7 @@
 /* Tablet Layout (screen width less than 992px) -----------------------------*/
 @media (max-width: 992px) {
 
+
     /* --------------------- Layout Grids (General Structure) --------------------- */
 
     .text_element_grid,
@@ -115,23 +116,26 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap:0;
+        gap: 0;
     }
 
     /* stack logo above nav links so they don't squish together */
-    
+
     .header_bar {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
-    } 
+    }
 
     /* let nav items wrap onto a new line if there are too many */
-    
+
     .header_nav_bar {
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* --------------------- index --------------------- */
+
 
 }
 
@@ -146,7 +150,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap:0;
+        gap: 0;
     }
 
     .header_nav_bar {
@@ -244,13 +248,6 @@
         width: 100%;
     }
 
-    /* --------------------- Header & Navigation --------------------- */
 
-    /* shrink nav item font and padding so nothing spills off screen */
-    
-    /*.header_nav_bar_item {
-        font-size: 1rem;
-        padding: 0.2rem 0.5rem;
-    }*/
 
 }
