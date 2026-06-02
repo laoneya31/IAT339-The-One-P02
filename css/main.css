@@ -622,3 +622,7 @@ footer a{
 footer .in_text_link{
 color:#FFFEF0;
 }
+
+footer .in_text_link:hover {
+    color: #C5C35F;
+}
