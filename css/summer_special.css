@@ -1,35 +1,28 @@
-.event_grid,
-.event_overlap_content,
-.event_text,
-.event_main_img,
-.element,
-.element_detail{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 h4{
     margin-bottom:0;
 }
 
-h2,
-h3{
-    text-align: center;
+.event_content_grid{
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    align-items: center;
 }
 
-.event_text h4{
-    text-align: center;
+.event_text{
+    flex:2.5;
 }
 
-.event_main_img img,
-.element_detail {
-    width: 80%;
+.event_img{
+    flex:1.5;
 }
 
-.event_main_img img{
-    padding-top:1rem;
+.event_img img {
+    width: 100%;
 }
+
+
+
 
 
 

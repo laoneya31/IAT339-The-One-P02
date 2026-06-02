@@ -146,11 +146,14 @@
         align-items: center;
     }
 
-    .about_us_text,
-    .about_us_img {
-        width: 100%;
-    }
+    /* --------------------- summer special --------------------- */
 
+    .event_content_grid{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
 
 }
 
