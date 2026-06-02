@@ -1,0 +1,27 @@
+.view_menu_grid{
+    display:flex;
+    flex-direction: column;
+}
+
+.view_menu_image_gird{
+    display:flex;
+    flex-direction: row;
+    padding:3rem;
+    gap:0.8rem;
+    width: 100%;
+}
+
+.view_menu_image{
+    flex:1;
+}
+
+.view_menu_image img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.view_menu_image_gird:hover{
+    transition:0.3s;
+    background-color:#C5C35F ;
+}
