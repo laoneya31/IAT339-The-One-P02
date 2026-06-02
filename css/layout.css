@@ -134,7 +134,7 @@
 
     /* --------------------- index --------------------- */
     
-    a.view_menu_image_grid {
+    .view_menu_image_grid {
         padding: 1rem;
         gap: 0.3rem;
     }
