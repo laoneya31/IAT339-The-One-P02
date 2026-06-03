@@ -55,6 +55,10 @@ p {
     font-family: "Calibri_regular";
 }
 
+.numbered_list{
+    font-size:1.25rem;
+}
+
 /*
 ------------------------------- Section & Elements ---------------------------
 */
