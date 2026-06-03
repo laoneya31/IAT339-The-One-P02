@@ -21,6 +21,22 @@ h4{
     width: 100%;
 }
 
+.bg_image {
+    position: fixed;
+    inset: 0;
+    background: url("../img/event_bg.png") center / cover no-repeat;
+    z-index: -2;
+}
+
+.color_overlap{
+    position: fixed;
+    inset: 0;
+
+    background: rgba(255, 254, 240, 0.7); 
+
+    z-index: -1;
+}
+
 
 
 
