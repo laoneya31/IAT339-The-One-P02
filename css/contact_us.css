@@ -16,7 +16,9 @@
 
     /* source: https://codetheweb.blog/fullscreen-image-hero/ */
     width: 100vw;
+
     height: 40rem;
+    margin-top: 0rem;
 
     display: flex;
     align-items: center;
