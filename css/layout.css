@@ -299,6 +299,22 @@
 
     /* --------------------- contact us --------------------- */
 
+    .hero_section {
+
+        /* 
+        This code is created with asistance from ChatGPT.
+        Prompt: How can I make my hero section image stretch edge-to-edge across the viewport even though my body has left and right margins?
+        */
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+
+            /*
+        --------------------------------------------------
+        */
+        
+        margin-right: 0rem;
+    }
+
     .contact_info_detail {
         grid-template-columns: 1fr;
         gap: 3rem;
