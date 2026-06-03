@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* (screen width less than 1200px) -----------------------------*/
+@media (max-width: 1200px) {
+    .product_card{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 /* Tablet Layout (screen width less than 992px) -----------------------------*/
@@ -269,3 +278,5 @@
 
 
 }
+
+
