@@ -41,45 +41,5 @@
 
 
 
-/* media queries */
-@media (max-width: 992px) {
-    .contact_info_detail {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 4rem;
-    }
 
-    .contact_info {
-       grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .contact_info_detail {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .contact_info {
-        grid-template-columns: 1fr;
-    }
-
-    .contact_info_card {
-        border-right: none;
-        border-bottom: 0.05rem solid #67704C;
-    }
-
-    .contact_info_card:nth-child(2n) {
-        border-right: none;
-    }
-
-    .contact_info_card:nth-last-child(-n + 2) {
-        border-bottom: 0.05rem solid #67704C;
-    }
-
-    .contact_info_card:last-child {
-        border-bottom: none;
-    }
-
-}
 
