@@ -210,12 +210,18 @@ section {
     border-right: none;
 }
 
-.header_nav_bar_item:hover {
+.header_nav_bar_item:hover,
+.header_nav_bar_item:focus-visible {
     font-weight: bold;
     color: #C5C35F;
     text-decoration: none;
 
     transition: 0.3s;
+}
+
+.header_nav_bar_item:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
 }
 
 /*
@@ -259,6 +265,13 @@ section {
     transition: 0.3s;
 }
 
+.primary_button:focus-visible {
+    border-color: #C5C35F;
+    background-color: #C5C35F;
+    outline: 0.2rem solid #C5C35F;
+    outline-offset: 0.2rem;
+}
+
 .secondary_button {
     display: flex;
     justify-content: center;
@@ -280,6 +293,13 @@ section {
     border-color: #C5C35F;
     background-color: #FFFEF0;
     transition: 0.3s;
+}
+
+.secondary_button:focus-visible {
+    border-color: #C5C35F;
+    background-color: #FFFEF0;
+    outline: 0.2rem solid #000;
+    outline-offset: 0.2rem;
 }
 
 .button_group {
