@@ -102,6 +102,7 @@ section {
 }
 
 
+
 /*
 --------------------------------------------------- Color Palette ----------------------------------------------------
 */
@@ -675,6 +676,7 @@ footer .in_text_link:focus-visible {
     width: 100vw;
     
     margin-left: calc(-50vw + 50%);
+    overflow-x: hidden;
 }
 
 
