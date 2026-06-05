@@ -654,34 +654,33 @@ footer .in_text_link:hover {
 }
 
 /*
------------------------------------------------------ Hero Section ----------------------------------------------------
+----------------------------------------------------- Hero Section for Home and Contact Us----------------------------------------------------
 */
 
-.hero_img img{
+.home_img img{
     width:100%;
     display: block;
-    
 }
 
-.hero_section {
+.home_section {
     position: relative;
     width: 100vw;
+    
     margin-left: calc(-50vw + 50%);
 }
 
 
-.hero_text {
+.home_text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     text-align: center;
 }
 
-.hero_text h2{
+.home_text h2{
     color: #FFFEF0;
-}
+} 
 
 
 /*

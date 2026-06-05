@@ -1,27 +1,38 @@
-.home_img img{
-    width:100%;
-    display: block;
-}
-
-.home_section {
-    position: relative;
-    width: 100vw;
-    
-    margin-left: calc(-50vw + 50%);
-}
-
-
-.home_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+/* ---------------------------------- Hero Section -------------------------------- */
 
 .home_text h2{
     color: #FFFEF0;
 } 
+
+/* ---------------------------------- About us -------------------------------- */
+
+.about_us_grid {
+    background-color:rgba(197,195,95, 0.4);
+    margin-left: -3rem;
+    margin-right: -3rem;
+    padding: 4rem 3rem;
+}
+
+.about_us_content_grid{
+    display:flex;
+    flex-direction: row;
+    gap:4rem;
+    align-items: center;
+}
+
+.about_us_img img {
+    width: 100%;
+}
+
+.about_us_text{
+    flex:2.5;
+}
+
+.about_us_img{
+    flex:1.5;
+}
+
+/* ---------------------------------- Explore our menu -------------------------------- */
 
 .view_menu_grid{
     display:flex;
@@ -55,30 +66,4 @@
     background-color:#C5C35F ;
 }
 
-.about_us_grid {
-    background-color:rgba(197,195,95, 0.4);
-    margin-left: -3rem;
-    margin-right: -3rem;
-    padding: 4rem 3rem;
-}
 
-.about_us_content_grid{
-    display:flex;
-    flex-direction: row;
-    gap:4rem;
-    align-items: center;
-
-
-}
-
-.about_us_img img {
-    width: 100%;
-}
-
-.about_us_text{
-    flex:2.5;
-}
-
-.about_us_img{
-    flex:1.5;
-}
