@@ -679,5 +679,6 @@ footer .in_text_link:hover {
     background-color:rgba(197,195,95, 0.4);
     margin-left: -3rem;
     margin-right: -3rem;
-    padding: 4rem 3rem;
+    margin-bottom:2rem;
+    padding: 2rem 3rem;
 }
