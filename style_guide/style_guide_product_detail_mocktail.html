@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>High Tea Product detail page</title>
+    <title>Mocktail Product Detail Page</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
@@ -31,79 +30,91 @@
 
     <main>
 
+
         <!-- product detail page layout -->
         <div class="product_detail_grid">
 
-            <!-- left side: sticky product image -->
+            <!-- left: image (signature mocktail) -->
             <div class="product_detail_image">
-                <img src="img/HIGH_TEA.png" alt="HIGH TEA">
+                <img src="img/SIGNATURE_MOCKTAIL.png" alt="SIGNATURE_MOCKTAIL">
             </div>
 
-            <!-- right side: product info + options -->
+            <!-- right: product info -->
             <div class="product_info other_font">
-                <h3>HIGH TEA $15</h3>
-                <p>Savoury bites, delicate pastries, and a curated selection of premium teas and refreshing sparkling
-                    lemonade.</p>
 
-                <!-- savoury bites options -->
-                <h3>Savoury Bites</h3>
+                <!-- refreshing mocktails -->
+                <h3>Refreshing Mocktails</h3>
                 <div class="product_options other_font">
 
+                    <!-- cucumber mint Cooler -->
                     <div class="radio_group">
                         <div class="radio_group_titile">
-                            <input type="radio" name="savoury" id="cucumber_sandwich" value="cucumber_sandwich">
-                            <label for="cucumber_sandwich">Cucumber & Cream Cheese Finger Sandwiches
-                                (Vegetarian)</label><br>
+                            <input type="radio" name="mocktail_group1" id="cucumber_mint_cooler"
+                                value="cucumber_mint_cooler">
+                            <label for="cucumber_mint_cooler">Cucumber Mint Cooler</label><br>
                         </div>
                         <div class="radio_group_detail">
-                            <p>Light, refreshing sandwich with creamy spread and crisp cucumber.</p>
+                            <p>Fresh cucumber, mint, lime, and sparkling water <br>
+                                Light, crisp, and super refreshing for daytime events
+                            </p>
                         </div>
                     </div>
 
+                    <!-- berry citrus spark -->
                     <div class="radio_group">
                         <div class="radio_group_titile">
-                            <input type="radio" name="savoury" id="chicken_brioche" value="chicken_brioche">
-                            <label for="chicken_brioche">Mini Chicken Salad Brioche Buns</label><br>
+                            <input type="radio" name="mocktail_group1" id="berry_citrus_spark"
+                                value="berry_citrus_spark">
+                            <label for="berry_citrus_spark">Berry Citrus Spark</label><br>
                         </div>
                         <div class="radio_group_detail">
-                            <p>Soft brioche filled with a creamy, seasoned chicken salad.</p>
+                            <p>Mixed berries, orange juice, lemon, and soda water <br>
+                                Bright, slightly tart, and visually vibrant
+                            </p>
                         </div>
                     </div>
 
+                    <!-- tropical pineapple bliss -->
                     <div class="radio_group">
                         <div class="radio_group_titile">
-                            <input type="radio" name="savoury" id="spinach_pastry" value="spinach_pastry">
-                            <label for="spinach_pastry">Spinach & Feta Puff Pastries (Vegetarian)</label>
+                            <input type="radio" name="mocktail_group1" id="tropical_pineapple_bliss"
+                                value="tropical_pineapple_bliss">
+                            <label for="tropical_pineapple_bliss">Tropical Pineapple Bliss</label><br>
                         </div>
                         <div class="radio_group_detail">
-                            <p>Flaky pastry filled with savoury spinach and feta cheese.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- beverage options -->
-                <h3>Beverage</h3>
-                <div class="product_options other_font">
-
-                    <div class="radio_group">
-                        <div class="radio_group_titile">
-                            <input type="radio" name="beverage" id="loose_leaf_tea" value="loose_leaf_tea">
-                            <label for="loose_leaf_tea">Premium Loose-Leaf Teas</label><br>
-                        </div>
-                        <div class="radio_group_detail">
-                            <p>Earl Grey, English Breakfast, Green Tea, Chamomile tea bags.</p>
+                            <p>Pineapple juice, coconut water, lime, and crushed ice <br>
+                                Smooth, tropical, and crowd-pleasing
+                            </p>
                         </div>
                     </div>
 
+                    <!-- peach ginger fizz -->
                     <div class="radio_group">
                         <div class="radio_group_titile">
-                            <input type="radio" name="beverage" id="sparkling_lemonade" value="sparkling_lemonade">
-                            <label for="sparkling_lemonade">Sparkling Lemonade</label>
+                            <input type="radio" name="mocktail_group1" id="peach_ginger_fizz" value="peach_ginger_fizz">
+                            <label for="peach_ginger_fizz">Peach Ginger Fizz</label>
                         </div>
                         <div class="radio_group_detail">
-                            <p>Refreshing and lightly carbonated.</p>
+                            <p>Peach puree, ginger syrup, lemon, sparkling water <br>
+                                Sweet with a slight spicy kick
+                            </p>
                         </div>
                     </div>
+
+                    <!-- lavender blueberry spritz -->
+                    <div class="radio_group">
+                        <div class="radio_group_titile">
+                            <input type="radio" name="mocktail_group1" id="lavender_blueberry_spritz"
+                                value="lavender_blueberry_spritz">
+                            <label for="lavender_blueberry_spritz">Lavender Blueberry Spritz</label>
+                        </div>
+                        <div class="radio_group_detail">
+                            <p>Blueberry syrup, lavender infusion, lemon, soda water <br>
+                                Elegant, floral, and great for upscale events
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- buttons to add to cart or go back -->
@@ -116,8 +127,8 @@
                         <a href="style_guide_product_listing.html" class="secondary_button">Back to Menu</a>
                     </div>
 
-
                 </div>
+
             </div>
 
         </div>
@@ -131,7 +142,7 @@
                 <h1>Savr</h1>
 
                 <h4><a class="in_text_link" href="contact_us.html" target="_blank">Contact Us</a></h4>
-                <h4><a class="in_text_link" href="style_guide.html" target="_blank">Style Guide</a></h4>
+                <h4><a class="in_text_link" href="style_guide/style_guide.html" target="_blank">Style Guide</a></h4>
                 <h4><a class="in_text_link" href="citations.html" target="_blank">Citation</a></h4>
 
             </div>
