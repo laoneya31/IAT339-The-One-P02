@@ -7,6 +7,7 @@
 
 /* (screen width less than 1200px) -----------------------------*/
 @media (max-width: 1200px) {
+    /* ------------------------- menu -----------------------------*/
     .product_card {
         display: flex;
         flex-direction: column;
@@ -164,6 +165,10 @@
         align-items: center;
     }
 
+    .rsvp_button{
+        padding-top:1.5rem;
+    }
+
     /* --------------------- contact us --------------------- */
 
     .contact_info_detail {
@@ -288,6 +293,10 @@
 
     h3 {
         font-size: 1.5rem;
+    }
+
+    h4{
+        font-size:1.25rem;
     }
 
     /* stop the product image from sticking when columns stack */
