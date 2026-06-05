@@ -1,13 +1,14 @@
 .home_img img{
-    margin-left: -3rem;
-    margin-right: -3rem;
-    width:100vw;
-    height:auto;
+
+    width:100%;
     display: block;
 }
 
 .home_section {
     position: relative;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    overflow: hidden;
 }
 
 
@@ -55,9 +56,6 @@
     border-radius: 0.5rem;
     background-color:#C5C35F ;
 }
-
-
-
 
 
 .about_us_content_grid{
