@@ -661,6 +661,12 @@ footer .in_text_link:hover {
     color: #C5C35F;
 }
 
+footer .in_text_link:focus-visible {
+    outline: 0.2rem solid #C5C35F;
+    outline-offset: 0.4rem;
+    border-radius: 0.1rem;
+}
+
 /*
 ------------------------------------ menu ------------------------------------------
 */
