@@ -1,4 +1,5 @@
-/* Apply the border-box model to all elements on the page */
+/* Apply the border-box model to all elements on the page 
+it is the code from week 2: Layout Exercise*/
 *,
 *::after,
 *::before {
@@ -20,6 +21,10 @@
 
 /* Tablet Layout (screen width less than 992px) ----------------------------------------------------------------------*/
 @media (max-width: 992px) {
+
+    h1 {
+        font-size: 4rem;
+    }
 
     /* --------------------- Layout Grids (General Structure) --------------------- */
 
@@ -96,10 +101,7 @@
         max-width: 25rem;
     }
 
-    /* shrink h1 a bit on tablet so it doesn't dominate */
-    h1 {
-        font-size: 4rem;
-    }
+
 
     /* ---------------------------------------- Form ----------------------------------- */
 
