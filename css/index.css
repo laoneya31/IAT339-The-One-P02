@@ -1,4 +1,4 @@
-/* .hero_img img{
+.hero_img img{
     width:100%;
     display: block;
 }
@@ -22,7 +22,7 @@
 
 .hero_text h2{
     color: #FFFEF0;
-} */
+} 
 
 .view_menu_grid{
     display:flex;
