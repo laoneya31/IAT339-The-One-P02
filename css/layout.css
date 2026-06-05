@@ -213,12 +213,30 @@ it is the code from week 2: Layout Exercise*/
         gap: 0;
     }
 
+    /* ----------------------------------------------- light green box ----------------------------------- */  
+
     .title_bg{
         background-color:rgba(197,195,95, 0.4);
         margin-left: -1rem;
         margin-right: -1rem;
         margin-bottom:2rem;
         padding: 2rem 1rem;
+    }
+
+    /* ------------------------------ hero image for the Home and Contact Us ----------------------------- */    
+
+    .home_section {
+        position: relative;
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+    }
+
+    /* ---------------------------------- Footer -------------------------------- */
+
+    footer {
+        margin-top: 4rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
     }
 
     /* ---------------------------------- Header -------------------------------- */
