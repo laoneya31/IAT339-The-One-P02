@@ -633,6 +633,18 @@ footer .in_text_link:hover {
     color: #C5C35F;
 }
 
+/*
+------------------------------------ menu ------------------------------------------
+*/
+
+.menu_button{
+    width:50%;
+}
+
+.menu_button h4{
+    margin:0;
+}
+
 .title_bg{
     background-color:rgba(197,195,95, 0.4);
     margin-left: -3rem;
