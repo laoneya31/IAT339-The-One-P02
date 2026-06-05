@@ -6,7 +6,10 @@ it is the code from week 2: Layout Exercise*/
     box-sizing: border-box;
 }
 
-/* (screen width less than 1200px) --------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 1200px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 1200px) {
 
     /* ------------------------- menu -----------------------------*/
@@ -19,7 +22,10 @@ it is the code from week 2: Layout Exercise*/
 
 
 
-/* Tablet Layout (screen width less than 992px) ----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 992px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 992px) {
 
     h1 {
@@ -189,9 +195,23 @@ it is the code from week 2: Layout Exercise*/
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 600px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
 
-/* Mobile Phone Layout (screen width less than 600px) -----------------------------*/
 @media (max-width: 600px) {
+
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .text_element_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 
     /* ---------------------------------- Header -------------------------------- */
 
@@ -228,12 +248,22 @@ it is the code from week 2: Layout Exercise*/
     }
 
 
-    /* -------------------- Fonts & Headings & Paragraph --------------------- */
+    /* ----------------------------------- Font Size ---------------------------------- */
 
-    .text_element_grid {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
     }
 
     /* ---------------------------------- Cart -------------------------------- */
@@ -271,52 +301,27 @@ it is the code from week 2: Layout Exercise*/
         max-width: 16rem;
     }
 
-    /* tighter body margins so the page doesn't feel cramped on a phone */
-    body {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-    /* scale headings down on phone */
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.25rem;
-    }
-
-    /* stop the product image from sticking when columns stack */
     .product_detail_image img {
         position: static;
         max-width: 100%;
         width: 100%;
     }
 
-    /* --------------------- Contact Us --------------------- */
+
+    /* ------------------------------------------ Contact Us -------------------------------------- */
 
     .hero_section {
 
         /* 
         This code is created with asistance from ChatGPT.
-        Prompt: How can I make my hero section image stretch edge-to-edge across the viewport even though my body has left and right margins?
+        Prompt: How can I make my hero section image stretch edge-to-edge across 
+        the viewport even though my body has left and right margins?
         */
         width: calc(100% + 2rem);
         margin-left: -1rem;
-
         /*
         --------------------------------------------------
         */
-
         margin-right: 0rem;
     }
 
@@ -351,7 +356,8 @@ it is the code from week 2: Layout Exercise*/
         border-bottom: none;
     }
 
-    /* --------------------- Product Listing Card --------------------- */
+
+    /* ------------------------------------ Menu ------------------------------------ */
 
     .card_text:nth-last-child(-n + 2) {
         border-bottom: 0.05rem solid #67704C;
@@ -360,6 +366,5 @@ it is the code from week 2: Layout Exercise*/
     .card_text:last-child {
         border-bottom: none;
     }
-
 
 }
