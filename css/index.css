@@ -1,7 +1,7 @@
 .home_img img{
     width:100%;
     display: block;
-    margin-bottom:5rem;
+    
 }
 
 .home_section {
@@ -27,7 +27,7 @@
 .view_menu_grid{
     display:flex;
     flex-direction: column;
-    margin-top:4rem;
+    margin-top:2rem;
 }
 
 .view_menu_image_grid {
@@ -56,6 +56,14 @@
     background-color:#C5C35F ;
 }
 
+.about_us_grid {
+    background-color:rgba(197,195,95, 0.4);
+
+    margin-left: -3rem;
+    margin-right: -3rem;
+
+    padding: 4rem 3rem;
+}
 
 .about_us_content_grid{
     display:flex;
