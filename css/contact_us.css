@@ -38,11 +38,11 @@
 .hero_text {
     position: relative;
     z-index: 2;
-    color: #FFFEF0;
+    color:#67704C;
 }
 
 .hero_text h2 {
-    color: #FFFEF0;
+    color:#67704C;
 }
 
 /* ---------------------------------- Contact info -------------------------------- */
