@@ -156,6 +156,11 @@
         align-items: center;
     }
 
+    .home_img img{
+        margin-top:2rem;
+        margin-bottom:4rem;
+    }
+
 
     /* --------------------- summer special --------------------- */
 
