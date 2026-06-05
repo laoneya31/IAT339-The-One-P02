@@ -1,12 +1,17 @@
-/* Apply the border-box model to all elements on the page */
+/* Apply the border-box model to all elements on the page 
+it is the code from week 2: Layout Exercise*/
 *,
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
-/* (screen width less than 1200px) -----------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 1200px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 1200px) {
+
     /* ------------------------- menu -----------------------------*/
     .product_card {
         display: flex;
@@ -17,8 +22,15 @@
 
 
 
-/* Tablet Layout (screen width less than 992px) -----------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 992px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 992px) {
+
+    h1 {
+        font-size: 4rem;
+    }
 
     /* --------------------- Layout Grids (General Structure) --------------------- */
 
@@ -43,7 +55,7 @@
         gap: 1.25rem;
     }
 
-    /* --------------------- Product listing --------------------- */
+    /* ------------------------------------- Menu ------------------------------------ */
 
     .product_list_grid {
         gap: 0;
@@ -63,7 +75,19 @@
         padding-top: 2.5rem;
     }
 
-    /* --------------------- Product Detail --------------------- */
+    .card_text:nth-last-child(-n + 2) {
+        border-bottom: 0.05rem solid #67704C;
+    }
+
+    .card_text:last-child {
+        border-bottom: none;
+    }
+
+    .menu_button {
+        width: 100%;
+    }
+
+    /* ---------------------------------- Product Detail -------------------------------- */
 
     .product_detail_grid {
         gap: 3rem;
@@ -83,19 +107,16 @@
         max-width: 25rem;
     }
 
-    /* shrink h1 a bit on tablet so it doesn't dominate */
-    h1 {
-        font-size: 4rem;
-    }
 
-    /* --------------------- Form Columns --------------------- */
+
+    /* ---------------------------------------- Form ----------------------------------- */
 
     .text_input_field_column_1,
     .text_input_field_column_2 {
         width: 100%;
     }
 
-    /* --------------------- Potential Images --------------------- */
+    /* ------------------------------------ Potential Images -------------------------------- */
 
     .images_row_1 {
         flex-direction: column;
@@ -107,7 +128,7 @@
         width: 80%;
     }
 
-    /* --------------------- Cart --------------------- */
+    /* --------------------------------------- Cart ----------------------------------------------- */
 
     .cart_grid {
         flex-direction: column;
@@ -118,31 +139,21 @@
         min-width: 16rem;
     }
 
-    /* --------------------- Header & Navigation --------------------- */
+    /* ------------------------------------ Header & Navigation -------------------------------------- */
 
     .header_bar {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0;
-    }
-
-    /* stack logo above nav links so they don't squish together */
-
-    .header_bar {
-        flex-direction: column;
-        align-items: center;
         gap: 0.5rem;
     }
-
-    /* let nav items wrap onto a new line if there are too many */
 
     .header_nav_bar {
         display: flex;
         flex-wrap: wrap;
     }
 
-    /* --------------------- index --------------------- */
+    /* ------------------------------------------- index ------------------------------------------ */
 
     .view_menu_image_grid {
         padding: 1rem;
@@ -156,9 +167,7 @@
         align-items: center;
     }
 
-
-
-    /* --------------------- summer special --------------------- */
+    /* ------------------------------------- summer special ---------------------------------------- */
 
     .event_content_grid {
         display: flex;
@@ -167,11 +176,11 @@
         align-items: center;
     }
 
-    .rsvp_button{
-        padding-top:1.5rem;
+    .rsvp_button {
+        padding-top: 1.5rem;
     }
 
-    /* --------------------- contact us --------------------- */
+    /* ------------------------------------------ contact us ----------------------------------------- */
 
     .contact_info_detail {
         display: grid;
@@ -183,30 +192,26 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* --------------------- product listing card --------------------- */
-
-    .card_text:nth-last-child(-n + 2) {
-        border-bottom: 0.05rem solid #67704C;
-    }
-
-    .card_text:last-child {
-        border-bottom: none;
-    }
-
-    /*
------------------------------------- menu ------------------------------------------
-*/
-
-.menu_button{
-    width:100%;
-}
-
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------- (screen width less than 600px) -------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------*/
 
-/* Mobile Phone Layout (screen width less than 600px) -----------------------------*/
 @media (max-width: 600px) {
+
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .text_element_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 
     /* ---------------------------------- Header -------------------------------- */
 
@@ -215,7 +220,7 @@
         flex-direction: column;
         align-items: center;
         gap: 0;
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
     }
 
     .header_nav_bar {
@@ -243,12 +248,22 @@
     }
 
 
-    /* -------------------- Fonts & Headings & Paragraph --------------------- */
+    /* ----------------------------------- Font Size ---------------------------------- */
 
-    .text_element_grid {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
     }
 
     /* ---------------------------------- Cart -------------------------------- */
@@ -286,52 +301,27 @@
         max-width: 16rem;
     }
 
-    /* tighter body margins so the page doesn't feel cramped on a phone */
-    body {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
-    /* scale headings down on phone */
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h4{
-        font-size:1.25rem;
-    }
-
-    /* stop the product image from sticking when columns stack */
     .product_detail_image img {
         position: static;
         max-width: 100%;
         width: 100%;
     }
 
-    /* --------------------- Contact Us --------------------- */
+
+    /* ------------------------------------------ Contact Us -------------------------------------- */
 
     .hero_section {
 
         /* 
         This code is created with asistance from ChatGPT.
-        Prompt: How can I make my hero section image stretch edge-to-edge across the viewport even though my body has left and right margins?
+        Prompt: How can I make my hero section image stretch edge-to-edge across 
+        the viewport even though my body has left and right margins?
         */
         width: calc(100% + 2rem);
         margin-left: -1rem;
-
-            /*
+        /*
         --------------------------------------------------
         */
-        
         margin-right: 0rem;
     }
 
@@ -366,8 +356,9 @@
         border-bottom: none;
     }
 
-    /* --------------------- Product Listing Card --------------------- */
-    
+
+    /* ------------------------------------ Menu ------------------------------------ */
+
     .card_text:nth-last-child(-n + 2) {
         border-bottom: 0.05rem solid #67704C;
     }
@@ -375,6 +366,5 @@
     .card_text:last-child {
         border-bottom: none;
     }
-
 
 }
