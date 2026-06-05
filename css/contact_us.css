@@ -1,54 +1,13 @@
-/* ---------------------------------- Hero section -------------------------------- */
-
-.hero_section {
-    position: relative;
-
-    /* 
-    This code is created with asistance from ChatGPT.
-    Prompt: How can I make my hero section image stretch edge-to-edge across the viewport even though my body has left and right margins?
-    */
-    width: calc(100% + 6rem);
-    margin-left: -3rem;
-
-        /*
-    --------------------------------------------------
-    */
-
-    /* source: https://codetheweb.blog/fullscreen-image-hero/ */
-    width: 100vw;
-
-    height: 40rem;
-    margin-top: 0rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero_section img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 50%;
-    z-index: 1;
-}
-
-.hero_text {
-    position: relative;
-    z-index: 2;
-    color:#67704C;
-}
-
-.hero_text h2 {
-    color:#67704C;
+/* ---------------------------------- Hero Section -------------------------------- */
+.other_color h2, p{
+    color: #67704C;
 }
 
 /* ---------------------------------- Contact info -------------------------------- */
 
 .contact_info_detail {
     border-top: 5rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
