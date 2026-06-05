@@ -1,4 +1,28 @@
+.home_img img{
+    margin-left: -3rem;
+    margin-right: -3rem;
+    width:100vw;
+    height:auto;
+    display: block;
+}
 
+.home_section {
+    position: relative;
+}
+
+
+.home_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.home_text h2{
+    color: #FFFEF0;
+}
 
 .view_menu_grid{
     display:flex;
@@ -33,21 +57,6 @@
 }
 
 
-.bg_image {
-    position: fixed;
-    inset: 0;
-    background: url("../img/bg.png") center / cover no-repeat;
-    z-index: -2;
-}
-
-.color_overlap{
-    position: fixed;
-    inset: 0;
-
-    background: rgba(255, 254, 240, 0.5); 
-
-    z-index: -1;
-}
 
 
 
@@ -56,6 +65,8 @@
     flex-direction: row;
     gap:4rem;
     align-items: center;
+
+    padding-top: 6rem;
 }
 
 .about_us_img img {
