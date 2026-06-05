@@ -87,6 +87,14 @@ section {
     margin-bottom: 2rem;
 }
 
+.title_bg{
+    background-color:rgba(197,195,95, 0.4);
+    margin-left: -3rem;
+    margin-right: -3rem;
+    margin-bottom:2rem;
+    padding: 2rem 3rem;
+}
+
 /*
 ------------------------- Fonts & Heading & Paragraph ----------------------------
 */
@@ -675,10 +683,14 @@ footer .in_text_link:hover {
     color: #FFFEF0;
 }
 
-.title_bg{
-    background-color:rgba(197,195,95, 0.4);
-    margin-left: -3rem;
-    margin-right: -3rem;
-    margin-bottom:2rem;
-    padding: 2rem 3rem;
+
+/*
+--------------------------- After Payment -----------------------------
+*/
+
+.after_payment_grid{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
 }
