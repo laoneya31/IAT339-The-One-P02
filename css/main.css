@@ -26,6 +26,14 @@ h1 {
     margin-top: 0;
 }
 
+.header_logo h1:hover {
+    font-weight: bold;
+    color: #C5C35F;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
 h2 {
     font-size: 3rem;
     font-family: "Canela";
