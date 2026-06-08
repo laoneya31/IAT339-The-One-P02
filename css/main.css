@@ -34,6 +34,12 @@ h1 {
     transition: 0.3s;
 }
 
+.header_logo:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    outline-offset: 0.8rem;
+}
+
 h2 {
     font-size: 3rem;
     font-family: "Canela";
