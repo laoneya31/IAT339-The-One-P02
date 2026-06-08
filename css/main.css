@@ -26,6 +26,20 @@ h1 {
     margin-top: 0;
 }
 
+.header_logo h1:hover {
+    font-weight: bold;
+    color: #C5C35F;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.header_logo:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    outline-offset: 0.8rem;
+}
+
 h2 {
     font-size: 3rem;
     font-family: "Canela";
@@ -471,6 +485,12 @@ Promt: How to make a 2 columns layout using CSS?
     transition: 0.3s;
 }
 
+.product_card:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    /* outline-offset: 0.5rem; */
+}
+
 
 /*
 ----------------------------------------------------------- Product Detail ---------------------------------------------------------------------
@@ -532,16 +552,24 @@ Promt: How to remove the border-bottom for the last item using CSS?
 
 /*
 This code is created with asistance from ChatGPT.
-Promt: How to change to color for a radip button after it is selected using CSS?
+Promt: How to change to color for a radio button after it is selected using CSS? & How to add focus-visible for radio group?
 */
 .radio_group:has(input:checked) {
     background: #C5C35F;
     border-radius: 0.5rem;
     padding:0.15rem;
 }
+
+.radio_group:has(input:focus-visible) {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    outline-offset: 0.15rem;
+}
 /*
 -------------------------------------------------------------------------------
 */
+
+
 
 
 /*
