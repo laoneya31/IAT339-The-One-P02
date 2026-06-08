@@ -523,6 +523,8 @@ Promt: How to remove the border-bottom for the last item using CSS?
 */
 
 .radio_group:hover {
+    border-radius: 0.5rem;
+    padding:0.15rem;
 
     transform: scale(1.03);
     transition: 0.3s;
@@ -535,6 +537,7 @@ Promt: How to change to color for a radip button after it is selected using CSS?
 .radio_group:has(input:checked) {
     background: #C5C35F;
     border-radius: 0.5rem;
+    padding:0.15rem;
 }
 /*
 -------------------------------------------------------------------------------
