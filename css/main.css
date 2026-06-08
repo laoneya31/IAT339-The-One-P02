@@ -485,6 +485,12 @@ Promt: How to make a 2 columns layout using CSS?
     transition: 0.3s;
 }
 
+.product_card:focus-visible {
+    outline: 0.15rem solid #C5C35F;
+    border-radius: 0.2rem;
+    /* outline-offset: 0.5rem; */
+}
+
 
 /*
 ----------------------------------------------------------- Product Detail ---------------------------------------------------------------------
