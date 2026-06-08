@@ -535,9 +535,7 @@ Promt: How to make a 2 columns layout using CSS?
 This code is created with asistance from ChatGPT.
 Promt: How to remove the border-bottom for the last item using CSS?
 */
-.product_options:last-of-type {
-    border-bottom: none;
-}
+
 /*
 ----------------------------------------------------------------------
 */
