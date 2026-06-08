@@ -115,6 +115,9 @@ section {
     padding: 2rem 3rem;
 }
 
+.element_detail p {
+    overflow-wrap: anywhere;
+}
 
 
 /*
