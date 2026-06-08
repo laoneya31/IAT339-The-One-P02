@@ -488,7 +488,6 @@ Promt: How to make a 2 columns layout using CSS?
 .product_card:focus-visible {
     outline: 0.15rem solid #C5C35F;
     border-radius: 0.2rem;
-    /* outline-offset: 0.5rem; */
 }
 
 
@@ -555,7 +554,7 @@ This code is created with asistance from ChatGPT.
 Promt: How to change to color for a radio button after it is selected using CSS? & How to add focus-visible for radio group?
 */
 .radio_group:has(input:checked) {
-    background: #C5C35F;
+    background:#C5C35F;
     border-radius: 0.5rem;
     padding:0.15rem;
 }
